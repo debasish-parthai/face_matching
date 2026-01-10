@@ -77,11 +77,28 @@ class FalseNegativeTester:
                 except:
                     pass
 
+    def remove_unwanted_fields(self, obj):
+        """Recursively remove cropped_image_path and cropped_image_base64 fields from the response"""
+        if isinstance(obj, dict):
+            # Remove the unwanted fields
+            obj.pop('cropped_image_path', None)
+            obj.pop('cropped_image_base64', None)
+            # Recursively process nested dictionaries and lists
+            for key, value in obj.items():
+                obj[key] = self.remove_unwanted_fields(value)
+        elif isinstance(obj, list):
+            # Process each item in the list
+            for i, item in enumerate(obj):
+                obj[i] = self.remove_unwanted_fields(item)
+        return obj
+
     def save_comparison_result(self, result: dict, output_path: str):
         """Save comparison result to JSON file"""
         try:
+            # Remove unwanted fields before saving
+            cleaned_result = self.remove_unwanted_fields(result.copy())
             with open(output_path, 'w') as f:
-                json.dump(result, f, indent=2)
+                json.dump(cleaned_result, f, indent=2)
             logger.info(f"Saved result to: {output_path}")
         except Exception as e:
             logger.error(f"Error saving result to {output_path}: {e}")
@@ -112,11 +129,25 @@ class FalseNegativeTester:
             logger.error(f"Could not find {current_user_folder} in user folders list")
             return
 
-        # Collect all reference images from subsequent users
+        # Collect all reference images from subsequent users up to user5
         all_reference_images = []
         reference_user_mapping = []  # To track which user each reference image belongs to
 
-        for other_user_folder in all_user_folders[current_index + 1:]:
+        # Find the index of user5 to limit comparisons
+        user5_index = None
+        for i, folder in enumerate(all_user_folders):
+            if os.path.basename(folder) == 'user5':
+                user5_index = i
+                break
+
+        # Determine the end index for comparisons (up to user5)
+        if user5_index is not None:
+            end_index = min(len(all_user_folders), user5_index + 1)
+        else:
+            # If user5 not found, use all subsequent users (fallback)
+            end_index = len(all_user_folders)
+
+        for other_user_folder in all_user_folders[current_index + 1:end_index]:
             other_user_name = os.path.basename(other_user_folder)
             logger.info(f"Collecting images from {other_user_name}")
 
@@ -134,12 +165,12 @@ class FalseNegativeTester:
             logger.warning(f"No reference images found for {current_user_name}, skipping")
             return
 
-        logger.info(f"Found {len(all_reference_images)} total reference images from subsequent users")
+        logger.info(f"Found {len(all_reference_images)} total reference images from subsequent users (up to user5)")
 
         # Compare each image from current user with ALL reference images from subsequent users in batches of 5
         for i, candidate_path in enumerate(current_user_images):
             candidate_filename = os.path.basename(candidate_path)
-            logger.info(f"Comparing {candidate_filename} with {len(all_reference_images)} reference images from all subsequent users")
+            logger.info(f"Comparing {candidate_filename} with {len(all_reference_images)} reference images from subsequent users (up to user5)")
 
             # Process reference images in batches of 5
             consolidated_results = {
