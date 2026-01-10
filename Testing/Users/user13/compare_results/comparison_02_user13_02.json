@@ -1,0 +1,40 @@
+{
+  "candidate_faces_detected": 1,
+  "reference_results": [
+    {
+      "reference_index": 1,
+      "reference_path": "C:\\Users\\BAPS\\AppData\\Local\\Temp\\tmpngg0sead\\reference_0.jpg",
+      "faces_detected": 1,
+      "max_score": 60.292686462402344,
+      "all_scores": [
+        60.292686462402344
+      ],
+      "face_attributes": [
+        {
+          "age": 37,
+          "gender": 1,
+          "score": 60.292686462402344
+        }
+      ],
+      "comparing_with": "user13_03.jpg"
+    },
+    {
+      "reference_index": 2,
+      "reference_path": "C:\\Users\\BAPS\\AppData\\Local\\Temp\\tmpngg0sead\\reference_1.jpg",
+      "faces_detected": 1,
+      "max_score": 60.55516052246094,
+      "all_scores": [
+        60.55516052246094
+      ],
+      "face_attributes": [
+        {
+          "age": 38,
+          "gender": 1,
+          "score": 60.55516052246094
+        }
+      ],
+      "comparing_with": "user13_04.jpg"
+    }
+  ],
+  "candidate_image_name": "user13_02.jpg"
+}

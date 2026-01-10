@@ -1,0 +1,23 @@
+{
+  "candidate_faces_detected": 1,
+  "reference_results": [
+    {
+      "reference_index": 1,
+      "reference_path": "C:\\Users\\BAPS\\AppData\\Local\\Temp\\tmpcrl06i7f\\reference_0.jpg",
+      "faces_detected": 1,
+      "max_score": 49.125091552734375,
+      "all_scores": [
+        49.125091552734375
+      ],
+      "face_attributes": [
+        {
+          "age": 24,
+          "gender": 0,
+          "score": 49.125091552734375
+        }
+      ],
+      "comparing_with": "user22_05.jpg"
+    }
+  ],
+  "candidate_image_name": "user22_04.jpg"
+}

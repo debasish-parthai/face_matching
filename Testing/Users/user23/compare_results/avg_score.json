@@ -1,0 +1,67 @@
+{
+    "average_score": 74.284912109375,
+    "total_scores_count": 10,
+    "user": "user23",
+    "comparisons_summary": [
+        {
+            "candidate_image_name": "user23_01.jpg",
+            "comparing_with_image_name": "user23_02.jpg",
+            "score": 70.24825286865234,
+            "face_detected": 1
+        },
+        {
+            "candidate_image_name": "user23_01.jpg",
+            "comparing_with_image_name": "user23_03.jpg",
+            "score": 100,
+            "face_detected": 1
+        },
+        {
+            "candidate_image_name": "user23_01.jpg",
+            "comparing_with_image_name": "user23_04.jpg",
+            "score": 69.26294708251953,
+            "face_detected": 1
+        },
+        {
+            "candidate_image_name": "user23_01.jpg",
+            "comparing_with_image_name": "user23_05.jpg",
+            "score": 73.84734344482422,
+            "face_detected": 1
+        },
+        {
+            "candidate_image_name": "user23_02.jpg",
+            "comparing_with_image_name": "user23_03.jpg",
+            "score": 70.24825286865234,
+            "face_detected": 1
+        },
+        {
+            "candidate_image_name": "user23_02.jpg",
+            "comparing_with_image_name": "user23_04.jpg",
+            "score": 65.3102798461914,
+            "face_detected": 1
+        },
+        {
+            "candidate_image_name": "user23_02.jpg",
+            "comparing_with_image_name": "user23_05.jpg",
+            "score": 76.5760269165039,
+            "face_detected": 1
+        },
+        {
+            "candidate_image_name": "user23_03.jpg",
+            "comparing_with_image_name": "user23_04.jpg",
+            "score": 69.26294708251953,
+            "face_detected": 1
+        },
+        {
+            "candidate_image_name": "user23_03.jpg",
+            "comparing_with_image_name": "user23_05.jpg",
+            "score": 73.84734344482422,
+            "face_detected": 1
+        },
+        {
+            "candidate_image_name": "user23_04.jpg",
+            "comparing_with_image_name": "user23_05.jpg",
+            "score": 74.2457275390625,
+            "face_detected": 1
+        }
+    ]
+}

@@ -1,0 +1,87 @@
+{
+    "average_score": 19.874995838512074,
+    "total_scores_count": 11,
+    "user": "user21",
+    "comparisons_summary": [
+        {
+            "candidate_image_name": "user21_01.jpg",
+            "comparing_with_image_name": "user21_02.jpg",
+            "score": 71.73237609863281,
+            "face_detected": 1
+        },
+        {
+            "candidate_image_name": "user21_01.jpg",
+            "comparing_with_image_name": "user21_03.jpg",
+            "score": 0.0,
+            "face_detected": 0
+        },
+        {
+            "candidate_image_name": "user21_01.jpg",
+            "comparing_with_image_name": "user21_04.jpg",
+            "score": 72.03662109375,
+            "face_detected": 1
+        },
+        {
+            "candidate_image_name": "user21_01.jpg",
+            "comparing_with_image_name": "user21_05.jpg",
+            "score": 0.0,
+            "face_detected": 0
+        },
+        {
+            "candidate_image_name": "user21_01.jpg",
+            "comparing_with_image_name": "user21_06.jpg",
+            "score": 0.0,
+            "face_detected": 0
+        },
+        {
+            "candidate_image_name": "user21_02.jpg",
+            "comparing_with_image_name": "user21_03.jpg",
+            "score": 0.0,
+            "face_detected": 0
+        },
+        {
+            "candidate_image_name": "user21_02.jpg",
+            "comparing_with_image_name": "user21_04.jpg",
+            "score": 74.85595703125,
+            "face_detected": 1
+        },
+        {
+            "candidate_image_name": "user21_02.jpg",
+            "comparing_with_image_name": "user21_05.jpg",
+            "score": 0.0,
+            "face_detected": 0
+        },
+        {
+            "candidate_image_name": "user21_02.jpg",
+            "comparing_with_image_name": "user21_06.jpg",
+            "score": 0.0,
+            "face_detected": 0
+        },
+        {
+            "candidate_image_name": "user21_03.jpg",
+            "comparing_with_image_name": "no_references",
+            "score": 0.0,
+            "face_detected": 0,
+            "note": "no_reference_results_found"
+        },
+        {
+            "candidate_image_name": "user21_04.jpg",
+            "comparing_with_image_name": "user21_05.jpg",
+            "score": 0.0,
+            "face_detected": 0
+        },
+        {
+            "candidate_image_name": "user21_04.jpg",
+            "comparing_with_image_name": "user21_06.jpg",
+            "score": 0.0,
+            "face_detected": 0
+        },
+        {
+            "candidate_image_name": "user21_05.jpg",
+            "comparing_with_image_name": "no_references",
+            "score": 0.0,
+            "face_detected": 0,
+            "note": "no_reference_results_found"
+        }
+    ]
+}

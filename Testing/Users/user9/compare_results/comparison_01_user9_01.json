@@ -1,0 +1,74 @@
+{
+  "candidate_faces_detected": 1,
+  "reference_results": [
+    {
+      "reference_index": 1,
+      "reference_path": "C:\\Users\\BAPS\\AppData\\Local\\Temp\\tmprhlibaol\\reference_0.jpg",
+      "faces_detected": 1,
+      "max_score": 77.69749450683594,
+      "all_scores": [
+        77.69749450683594
+      ],
+      "face_attributes": [
+        {
+          "age": 47,
+          "gender": 1,
+          "score": 77.69749450683594
+        }
+      ],
+      "comparing_with": "user9_02.jpg"
+    },
+    {
+      "reference_index": 2,
+      "reference_path": "C:\\Users\\BAPS\\AppData\\Local\\Temp\\tmprhlibaol\\reference_1.jpg",
+      "faces_detected": 1,
+      "max_score": 67.87644958496094,
+      "all_scores": [
+        67.87644958496094
+      ],
+      "face_attributes": [
+        {
+          "age": 44,
+          "gender": 1,
+          "score": 67.87644958496094
+        }
+      ],
+      "comparing_with": "user9_03.jpg"
+    },
+    {
+      "reference_index": 3,
+      "reference_path": "C:\\Users\\BAPS\\AppData\\Local\\Temp\\tmprhlibaol\\reference_2.jpg",
+      "faces_detected": 1,
+      "max_score": 76.3172607421875,
+      "all_scores": [
+        76.3172607421875
+      ],
+      "face_attributes": [
+        {
+          "age": 49,
+          "gender": 1,
+          "score": 76.3172607421875
+        }
+      ],
+      "comparing_with": "user9_04.jpg"
+    },
+    {
+      "reference_index": 4,
+      "reference_path": "C:\\Users\\BAPS\\AppData\\Local\\Temp\\tmprhlibaol\\reference_3.jpg",
+      "faces_detected": 1,
+      "max_score": 76.21586608886719,
+      "all_scores": [
+        76.21586608886719
+      ],
+      "face_attributes": [
+        {
+          "age": 49,
+          "gender": 1,
+          "score": 76.21586608886719
+        }
+      ],
+      "comparing_with": "user9_05.jpg"
+    }
+  ],
+  "candidate_image_name": "user9_01.jpg"
+}

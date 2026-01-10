@@ -1,0 +1,74 @@
+{
+  "candidate_faces_detected": 1,
+  "reference_results": [
+    {
+      "reference_index": 1,
+      "reference_path": "C:\\Users\\BAPS\\AppData\\Local\\Temp\\tmp7vnauksl\\reference_0.jpg",
+      "faces_detected": 1,
+      "max_score": 69.96790313720703,
+      "all_scores": [
+        69.96790313720703
+      ],
+      "face_attributes": [
+        {
+          "age": 27,
+          "gender": 0,
+          "score": 69.96790313720703
+        }
+      ],
+      "comparing_with": "user22_02.jpg"
+    },
+    {
+      "reference_index": 2,
+      "reference_path": "C:\\Users\\BAPS\\AppData\\Local\\Temp\\tmp7vnauksl\\reference_1.jpg",
+      "faces_detected": 1,
+      "max_score": 63.03586959838867,
+      "all_scores": [
+        63.03586959838867
+      ],
+      "face_attributes": [
+        {
+          "age": 34,
+          "gender": 0,
+          "score": 63.03586959838867
+        }
+      ],
+      "comparing_with": "user22_03.jpg"
+    },
+    {
+      "reference_index": 3,
+      "reference_path": "C:\\Users\\BAPS\\AppData\\Local\\Temp\\tmp7vnauksl\\reference_2.jpg",
+      "faces_detected": 1,
+      "max_score": 58.901084899902344,
+      "all_scores": [
+        58.901084899902344
+      ],
+      "face_attributes": [
+        {
+          "age": 48,
+          "gender": 0,
+          "score": 58.901084899902344
+        }
+      ],
+      "comparing_with": "user22_04.jpg"
+    },
+    {
+      "reference_index": 4,
+      "reference_path": "C:\\Users\\BAPS\\AppData\\Local\\Temp\\tmp7vnauksl\\reference_3.jpg",
+      "faces_detected": 1,
+      "max_score": 66.057861328125,
+      "all_scores": [
+        66.057861328125
+      ],
+      "face_attributes": [
+        {
+          "age": 24,
+          "gender": 0,
+          "score": 66.057861328125
+        }
+      ],
+      "comparing_with": "user22_05.jpg"
+    }
+  ],
+  "candidate_image_name": "user22_01.jpg"
+}

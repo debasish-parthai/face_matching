@@ -1,0 +1,40 @@
+{
+  "candidate_faces_detected": 1,
+  "reference_results": [
+    {
+      "reference_index": 1,
+      "reference_path": "C:\\Users\\BAPS\\AppData\\Local\\Temp\\tmpgx83dake\\reference_0.jpg",
+      "faces_detected": 1,
+      "max_score": 87.55522918701172,
+      "all_scores": [
+        87.55522918701172
+      ],
+      "face_attributes": [
+        {
+          "age": 49,
+          "gender": 1,
+          "score": 87.55522918701172
+        }
+      ],
+      "comparing_with": "user9_04.jpg"
+    },
+    {
+      "reference_index": 2,
+      "reference_path": "C:\\Users\\BAPS\\AppData\\Local\\Temp\\tmpgx83dake\\reference_1.jpg",
+      "faces_detected": 1,
+      "max_score": 88.10199737548828,
+      "all_scores": [
+        88.10199737548828
+      ],
+      "face_attributes": [
+        {
+          "age": 49,
+          "gender": 1,
+          "score": 88.10199737548828
+        }
+      ],
+      "comparing_with": "user9_05.jpg"
+    }
+  ],
+  "candidate_image_name": "user9_03.jpg"
+}

@@ -1,0 +1,67 @@
+{
+    "average_score": 68.55441169738769,
+    "total_scores_count": 10,
+    "user": "user18",
+    "comparisons_summary": [
+        {
+            "candidate_image_name": "user18_01.jpg",
+            "comparing_with_image_name": "user18_02.jpg",
+            "score": 79.5367431640625,
+            "face_detected": 1
+        },
+        {
+            "candidate_image_name": "user18_01.jpg",
+            "comparing_with_image_name": "user18_03.jpg",
+            "score": 70.60794830322266,
+            "face_detected": 1
+        },
+        {
+            "candidate_image_name": "user18_01.jpg",
+            "comparing_with_image_name": "user18_04.jpg",
+            "score": 69.23690795898438,
+            "face_detected": 1
+        },
+        {
+            "candidate_image_name": "user18_01.jpg",
+            "comparing_with_image_name": "user18_05.jpg",
+            "score": 59.38355255126953,
+            "face_detected": 1
+        },
+        {
+            "candidate_image_name": "user18_02.jpg",
+            "comparing_with_image_name": "user18_03.jpg",
+            "score": 77.93978881835938,
+            "face_detected": 1
+        },
+        {
+            "candidate_image_name": "user18_02.jpg",
+            "comparing_with_image_name": "user18_04.jpg",
+            "score": 77.30517578125,
+            "face_detected": 1
+        },
+        {
+            "candidate_image_name": "user18_02.jpg",
+            "comparing_with_image_name": "user18_05.jpg",
+            "score": 58.535682678222656,
+            "face_detected": 1
+        },
+        {
+            "candidate_image_name": "user18_03.jpg",
+            "comparing_with_image_name": "user18_04.jpg",
+            "score": 74.55249786376953,
+            "face_detected": 1
+        },
+        {
+            "candidate_image_name": "user18_03.jpg",
+            "comparing_with_image_name": "user18_05.jpg",
+            "score": 58.93140411376953,
+            "face_detected": 1
+        },
+        {
+            "candidate_image_name": "user18_04.jpg",
+            "comparing_with_image_name": "user18_05.jpg",
+            "score": 59.5144157409668,
+            "face_detected": 1
+        }
+    ]
+}

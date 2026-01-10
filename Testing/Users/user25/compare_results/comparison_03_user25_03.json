@@ -1,0 +1,80 @@
+{
+  "candidate_faces_detected": 1,
+  "reference_results": [
+    {
+      "reference_index": 1,
+      "reference_path": "C:\\Users\\BAPS\\AppData\\Local\\Temp\\tmpj81owizl\\reference_0.jpg",
+      "faces_detected": 2,
+      "max_score": 55.35810089111328,
+      "all_scores": [
+        55.35810089111328,
+        0
+      ],
+      "face_attributes": [
+        {
+          "age": 41,
+          "gender": 0,
+          "score": 55.35810089111328
+        },
+        {
+          "age": 48,
+          "gender": 1,
+          "score": 0
+        }
+      ],
+      "comparing_with": "user25_04.jpg"
+    },
+    {
+      "reference_index": 2,
+      "reference_path": "C:\\Users\\BAPS\\AppData\\Local\\Temp\\tmpj81owizl\\reference_1.jpg",
+      "faces_detected": 1,
+      "max_score": 99.4661865234375,
+      "all_scores": [
+        99.4661865234375
+      ],
+      "face_attributes": [
+        {
+          "age": 63,
+          "gender": 0,
+          "score": 99.4661865234375
+        }
+      ],
+      "comparing_with": "user25_05.jpg"
+    },
+    {
+      "reference_index": 3,
+      "reference_path": "C:\\Users\\BAPS\\AppData\\Local\\Temp\\tmpj81owizl\\reference_2.jpg",
+      "faces_detected": 1,
+      "max_score": 61.395877838134766,
+      "all_scores": [
+        61.395877838134766
+      ],
+      "face_attributes": [
+        {
+          "age": 29,
+          "gender": 0,
+          "score": 61.395877838134766
+        }
+      ],
+      "comparing_with": "user25_06.jpg"
+    },
+    {
+      "reference_index": 4,
+      "reference_path": "C:\\Users\\BAPS\\AppData\\Local\\Temp\\tmpj81owizl\\reference_3.jpg",
+      "faces_detected": 1,
+      "max_score": 68.10672760009766,
+      "all_scores": [
+        68.10672760009766
+      ],
+      "face_attributes": [
+        {
+          "age": 28,
+          "gender": 0,
+          "score": 68.10672760009766
+        }
+      ],
+      "comparing_with": "user25_07.jpg"
+    }
+  ],
+  "candidate_image_name": "user25_03.jpg"
+}

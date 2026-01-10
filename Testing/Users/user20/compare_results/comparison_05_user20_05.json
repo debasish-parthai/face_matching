@@ -1,0 +1,15 @@
+{
+  "candidate_faces_detected": 2,
+  "reference_results": [
+    {
+      "reference_index": 1,
+      "reference_path": "C:\\Users\\BAPS\\AppData\\Local\\Temp\\tmpnmjamvbb\\reference_0.jpg",
+      "faces_detected": 0,
+      "max_score": 0.0,
+      "all_scores": [],
+      "face_attributes": [],
+      "comparing_with": "user20_06.jpg"
+    }
+  ],
+  "candidate_image_name": "user20_05.jpg"
+}

@@ -1,0 +1,40 @@
+{
+  "candidate_faces_detected": 1,
+  "reference_results": [
+    {
+      "reference_index": 1,
+      "reference_path": "C:\\Users\\BAPS\\AppData\\Local\\Temp\\tmplkx20suk\\reference_0.jpg",
+      "faces_detected": 1,
+      "max_score": 68.0972900390625,
+      "all_scores": [
+        68.0972900390625
+      ],
+      "face_attributes": [
+        {
+          "age": 35,
+          "gender": 1,
+          "score": 68.0972900390625
+        }
+      ],
+      "comparing_with": "user3_03.jpg"
+    },
+    {
+      "reference_index": 2,
+      "reference_path": "C:\\Users\\BAPS\\AppData\\Local\\Temp\\tmplkx20suk\\reference_1.jpg",
+      "faces_detected": 1,
+      "max_score": 73.51913452148438,
+      "all_scores": [
+        73.51913452148438
+      ],
+      "face_attributes": [
+        {
+          "age": 36,
+          "gender": 1,
+          "score": 73.51913452148438
+        }
+      ],
+      "comparing_with": "user3_04.jpg"
+    }
+  ],
+  "candidate_image_name": "user3_02.jpg"
+}

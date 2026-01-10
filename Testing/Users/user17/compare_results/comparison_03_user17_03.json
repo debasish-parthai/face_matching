@@ -1,0 +1,23 @@
+{
+  "candidate_faces_detected": 1,
+  "reference_results": [
+    {
+      "reference_index": 1,
+      "reference_path": "C:\\Users\\BAPS\\AppData\\Local\\Temp\\tmpcusju8mh\\reference_0.jpg",
+      "faces_detected": 1,
+      "max_score": 74.97636413574219,
+      "all_scores": [
+        74.97636413574219
+      ],
+      "face_attributes": [
+        {
+          "age": 36,
+          "gender": 0,
+          "score": 74.97636413574219
+        }
+      ],
+      "comparing_with": "user17_04.jpg"
+    }
+  ],
+  "candidate_image_name": "user17_03.jpg"
+}

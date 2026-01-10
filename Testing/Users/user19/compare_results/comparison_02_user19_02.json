@@ -1,0 +1,49 @@
+{
+  "candidate_faces_detected": 1,
+  "reference_results": [
+    {
+      "reference_index": 1,
+      "reference_path": "C:\\Users\\BAPS\\AppData\\Local\\Temp\\tmpo1hvr6om\\reference_0.jpg",
+      "faces_detected": 0,
+      "max_score": 0.0,
+      "all_scores": [],
+      "face_attributes": [],
+      "comparing_with": "user19_03.jpg"
+    },
+    {
+      "reference_index": 2,
+      "reference_path": "C:\\Users\\BAPS\\AppData\\Local\\Temp\\tmpo1hvr6om\\reference_1.jpg",
+      "faces_detected": 1,
+      "max_score": 68.23914337158203,
+      "all_scores": [
+        68.23914337158203
+      ],
+      "face_attributes": [
+        {
+          "age": 27,
+          "gender": 0,
+          "score": 68.23914337158203
+        }
+      ],
+      "comparing_with": "user19_04.jpg"
+    },
+    {
+      "reference_index": 3,
+      "reference_path": "C:\\Users\\BAPS\\AppData\\Local\\Temp\\tmpo1hvr6om\\reference_2.jpg",
+      "faces_detected": 1,
+      "max_score": 68.34449768066406,
+      "all_scores": [
+        68.34449768066406
+      ],
+      "face_attributes": [
+        {
+          "age": 31,
+          "gender": 0,
+          "score": 68.34449768066406
+        }
+      ],
+      "comparing_with": "user19_05.jpg"
+    }
+  ],
+  "candidate_image_name": "user19_02.jpg"
+}

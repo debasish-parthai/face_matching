@@ -1,0 +1,40 @@
+{
+  "candidate_faces_detected": 1,
+  "reference_results": [
+    {
+      "reference_index": 1,
+      "reference_path": "C:\\Users\\BAPS\\AppData\\Local\\Temp\\tmpdfucidx1\\reference_0.jpg",
+      "faces_detected": 1,
+      "max_score": 80.35857391357422,
+      "all_scores": [
+        80.35857391357422
+      ],
+      "face_attributes": [
+        {
+          "age": 44,
+          "gender": 1,
+          "score": 80.35857391357422
+        }
+      ],
+      "comparing_with": "user12_03.jpg"
+    },
+    {
+      "reference_index": 2,
+      "reference_path": "C:\\Users\\BAPS\\AppData\\Local\\Temp\\tmpdfucidx1\\reference_1.jpg",
+      "faces_detected": 1,
+      "max_score": 86.9786605834961,
+      "all_scores": [
+        86.9786605834961
+      ],
+      "face_attributes": [
+        {
+          "age": 36,
+          "gender": 1,
+          "score": 86.9786605834961
+        }
+      ],
+      "comparing_with": "user12_04.jpg"
+    }
+  ],
+  "candidate_image_name": "user12_02.jpg"
+}

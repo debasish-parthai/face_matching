@@ -1,0 +1,23 @@
+{
+  "candidate_faces_detected": 1,
+  "reference_results": [
+    {
+      "reference_index": 1,
+      "reference_path": "C:\\Users\\BAPS\\AppData\\Local\\Temp\\tmpds1dbkrl\\reference_0.jpg",
+      "faces_detected": 1,
+      "max_score": 79.41714477539062,
+      "all_scores": [
+        79.41714477539062
+      ],
+      "face_attributes": [
+        {
+          "age": 36,
+          "gender": 1,
+          "score": 79.41714477539062
+        }
+      ],
+      "comparing_with": "user12_04.jpg"
+    }
+  ],
+  "candidate_image_name": "user12_03.jpg"
+}

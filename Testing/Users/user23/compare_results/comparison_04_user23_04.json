@@ -1,0 +1,23 @@
+{
+  "candidate_faces_detected": 1,
+  "reference_results": [
+    {
+      "reference_index": 1,
+      "reference_path": "C:\\Users\\BAPS\\AppData\\Local\\Temp\\tmpfp5220cq\\reference_0.jpg",
+      "faces_detected": 1,
+      "max_score": 74.2457275390625,
+      "all_scores": [
+        74.2457275390625
+      ],
+      "face_attributes": [
+        {
+          "age": 28,
+          "gender": 0,
+          "score": 74.2457275390625
+        }
+      ],
+      "comparing_with": "user23_05.jpg"
+    }
+  ],
+  "candidate_image_name": "user23_04.jpg"
+}
