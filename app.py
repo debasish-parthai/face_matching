@@ -5,6 +5,7 @@ import os
 import shutil
 import tempfile
 from face_matcher import FaceMatcherInsightFace
+from face_matcher_optimize import ImprovedFaceMatcherInsightFace
 import logging
 
 # Configure logging
@@ -18,7 +19,7 @@ app = FastAPI(
 )
 
 # Initialize face matcher
-face_matcher = FaceMatcherInsightFace()
+face_matcher = ImprovedFaceMatcherInsightFace()
 
 @app.get("/")
 async def root():
