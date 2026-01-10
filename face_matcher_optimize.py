@@ -70,9 +70,9 @@ class ImprovedFaceMatcherInsightFace:
         return laplacian.var()
 
     def is_face_viable(self, image: np.ndarray, face_info: Dict,
-                       blur_threshold: float = 30.0,  # Lowered for better recall
-                       min_face_size: int = 30,  # Reduced minimum size
-                       min_det_score: float = 0.25) -> bool:  # Lowered threshold
+                       blur_threshold: float = 15.0,  # Lowered for better recall
+                       min_face_size: int = 20,  # Reduced minimum size
+                       min_det_score: float = 0.15) -> bool:  # Lowered threshold
         """Check face quality and detection confidence (optimized thresholds)"""
         bbox = face_info['bbox']
 
@@ -95,8 +95,17 @@ class ImprovedFaceMatcherInsightFace:
         return True
 
     def extract_faces(self, image_path: str,
-                     use_preprocessing: bool = True) -> List[Dict]:
-        """Extract all viable faces with embeddings (optimized)"""
+                     use_preprocessing: bool = True,
+                     save_cropped_faces: bool = False,
+                     output_dir: str = None) -> List[Dict]:
+        """Extract all viable faces with embeddings (optimized)
+
+        Args:
+            image_path: Path to the input image
+            use_preprocessing: Whether to apply preprocessing
+            save_cropped_faces: Whether to save cropped face images
+            output_dir: Directory to save cropped faces (required if save_cropped_faces=True)
+        """
         try:
             # Use preprocessed image
             if use_preprocessing:
@@ -111,15 +120,35 @@ class ImprovedFaceMatcherInsightFace:
             faces = self.app.get(image)
 
             viable_faces = []
-            for face in faces:
+            for idx, face in enumerate(faces):
                 if self.is_face_viable(image, face):
-                    viable_faces.append({
+                    face_data = {
                         'embedding': face['embedding'],
                         'bbox': face['bbox'],
                         'det_score': face['det_score'],
                         'age': face.get('age'),
                         'gender': face.get('gender')
-                    })
+                    }
+
+                    # Save cropped face if requested
+                    if save_cropped_faces and output_dir:
+                        x1, y1, x2, y2 = map(int, face['bbox'][:4])
+                        # Add bounds checking
+                        h, w = image.shape[:2]
+                        x1, x2 = max(0, x1), min(w, x2)
+                        y1, y2 = max(0, y1), min(h, y2)
+
+                        face_crop = image[y1:y2, x1:x2]
+
+                        # Generate filename based on input image name
+                        base_name = os.path.splitext(os.path.basename(image_path))[0]
+                        crop_filename = f"{base_name}_face_{idx+1}.jpg"
+                        crop_path = os.path.join(output_dir, crop_filename)
+
+                        cv2.imwrite(crop_path, face_crop)
+                        face_data['cropped_image_path'] = crop_path
+
+                    viable_faces.append(face_data)
 
             return viable_faces
 
@@ -167,13 +196,17 @@ class ImprovedFaceMatcherInsightFace:
                                        candidate_path: str,
                                        reference_paths: List[str],
                                        use_parallel: bool = True,
-                                       match_threshold: float = 40.0) -> Dict[str, any]:
+                                       match_threshold: float = 40.0,
+                                       save_cropped_faces: bool = False,
+                                       output_dir: str = None) -> Dict[str, any]:
         """
         Match candidate photo with reference photos (optimized)
 
         Args:
             use_parallel: Process reference images in parallel
             match_threshold: Minimum score to consider a match
+            save_cropped_faces: Whether to save cropped face images
+            output_dir: Directory to save cropped faces (required if save_cropped_faces=True)
         """
         results = {
             'candidate_faces_detected': 0,
@@ -184,7 +217,11 @@ class ImprovedFaceMatcherInsightFace:
         }
 
         # Extract candidate face
-        candidate_faces = self.extract_faces(candidate_path)
+        candidate_faces = self.extract_faces(
+            candidate_path,
+            save_cropped_faces=save_cropped_faces,
+            output_dir=output_dir
+        )
 
         if not candidate_faces:
             logging.warning("No viable face in candidate photo")
@@ -201,13 +238,18 @@ class ImprovedFaceMatcherInsightFace:
 
         candidate_embedding = candidate_face['embedding']
 
+        # Include cropped image path if available
+        if 'cropped_image_path' in candidate_face:
+            results['candidate_cropped_image_path'] = candidate_face['cropped_image_path']
+
         # Process references
         if use_parallel and len(reference_paths) > 1:
             # Parallel processing for multiple references
             with ThreadPoolExecutor(max_workers=min(4, len(reference_paths))) as executor:
                 ref_results = list(executor.map(
                     lambda ref_path: self._process_reference(
-                        ref_path, candidate_embedding, reference_paths.index(ref_path)
+                        ref_path, candidate_embedding, reference_paths.index(ref_path),
+                        save_cropped_faces, output_dir
                     ),
                     reference_paths
                 ))
@@ -215,7 +257,10 @@ class ImprovedFaceMatcherInsightFace:
         else:
             # Sequential processing
             for idx, ref_path in enumerate(reference_paths):
-                ref_result = self._process_reference(ref_path, candidate_embedding, idx)
+                ref_result = self._process_reference(
+                    ref_path, candidate_embedding, idx,
+                    save_cropped_faces, output_dir
+                )
                 results['reference_results'].append(ref_result)
 
         # Calculate match statistics
@@ -230,7 +275,9 @@ class ImprovedFaceMatcherInsightFace:
 
     def _process_reference(self, ref_path: str,
                           candidate_embedding: np.ndarray,
-                          idx: int) -> Dict:
+                          idx: int,
+                          save_cropped_faces: bool = False,
+                          output_dir: str = None) -> Dict:
         """Process a single reference image"""
         ref_result = {
             'reference_index': idx + 1,
@@ -241,7 +288,11 @@ class ImprovedFaceMatcherInsightFace:
             'face_attributes': []
         }
 
-        ref_faces = self.extract_faces(ref_path)
+        ref_faces = self.extract_faces(
+            ref_path,
+            save_cropped_faces=save_cropped_faces,
+            output_dir=output_dir
+        )
         ref_result['faces_detected'] = len(ref_faces)
 
         if not ref_faces:
@@ -254,11 +305,14 @@ class ImprovedFaceMatcherInsightFace:
                 ref_face['embedding']
             )
             ref_result['all_scores'].append(score)
-            ref_result['face_attributes'].append({
+            face_attr = {
                 'age': ref_face.get('age'),
                 'gender': ref_face.get('gender'),
                 'score': score
-            })
+            }
+            if 'cropped_image_path' in ref_face:
+                face_attr['cropped_image_path'] = ref_face['cropped_image_path']
+            ref_result['face_attributes'].append(face_attr)
 
         if ref_result['all_scores']:
             ref_result['max_score'] = max(ref_result['all_scores'])

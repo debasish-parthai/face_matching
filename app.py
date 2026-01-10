@@ -1,5 +1,6 @@
 from fastapi import FastAPI, UploadFile, File, HTTPException, Form
 from fastapi.responses import JSONResponse
+from fastapi.middleware.cors import CORSMiddleware
 from typing import List, Optional
 import os
 import shutil
@@ -7,15 +8,35 @@ import tempfile
 from face_matcher import FaceMatcherInsightFace
 from face_matcher_optimize import ImprovedFaceMatcherInsightFace
 import logging
+import base64
 
 # Configure logging
 logging.basicConfig(level=logging.DEBUG)
 logger = logging.getLogger(__name__)
 
+def image_to_base64(image_path: str) -> str:
+    """Convert image file to base64 string for frontend display"""
+    try:
+        with open(image_path, "rb") as image_file:
+            encoded_string = base64.b64encode(image_file.read()).decode('utf-8')
+            return f"data:image/jpeg;base64,{encoded_string}"
+    except Exception as e:
+        logger.error(f"Error converting image to base64: {str(e)}")
+        return ""
+
 app = FastAPI(
     title="Face Matching API",
     description="API for face matching using InsightFace",
     version="1.0.0"
+)
+
+# Add CORS middleware
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],  # Allows all origins
+    allow_credentials=True,
+    allow_methods=["*"],  # Allows all methods
+    allow_headers=["*"],  # Allows all headers
 )
 
 # Initialize face matcher
@@ -39,7 +60,8 @@ async def health_check():
 @app.post("/match-faces/")
 async def match_faces(
     candidate_file: UploadFile = File(...),
-    reference_files: List[UploadFile] = File(...)
+    reference_files: List[UploadFile] = File(...),
+    save_cropped_faces: bool = Form(True)
 ):
     """
     Match a candidate face with multiple reference faces.
@@ -56,6 +78,10 @@ async def match_faces(
     # Create temporary directory
     with tempfile.TemporaryDirectory() as temp_dir:
         try:
+            # Create subdirectory for cropped faces
+            cropped_dir = os.path.join(temp_dir, "cropped_faces")
+            os.makedirs(cropped_dir, exist_ok=True)
+
             # Save candidate file
             candidate_path = os.path.join(temp_dir, "candidate.jpg")
             with open(candidate_path, "wb") as f:
@@ -71,8 +97,19 @@ async def match_faces(
 
             # Perform matching
             results = face_matcher.match_candidate_with_references(
-                candidate_path, reference_paths
+                candidate_path, reference_paths,
+                save_cropped_faces=save_cropped_faces,
+                output_dir=cropped_dir
             )
+
+            # Convert cropped image paths to base64 for frontend display
+            if 'candidate_cropped_image_path' in results and results['candidate_cropped_image_path']:
+                results['candidate_cropped_image_base64'] = image_to_base64(results['candidate_cropped_image_path'])
+
+            for ref_result in results['reference_results']:
+                for face_attr in ref_result['face_attributes']:
+                    if 'cropped_image_path' in face_attr and face_attr['cropped_image_path']:
+                        face_attr['cropped_image_base64'] = image_to_base64(face_attr['cropped_image_path'])
 
             # Convert all numpy types to Python types for JSON serialization
             def convert_numpy_types(obj):
