@@ -1,98 +1,97 @@
 {
-    "average_score": 43.22110366821289,
-    "total_scores_count": 14,
+    "average_score": 57.151085662841794,
+    "total_scores_count": 15,
     "user": "user1",
     "comparisons_summary": [
         {
             "candidate_image_name": "user1_01.jpg",
             "comparing_with_image_name": "user1_02.jpg",
-            "score": 45.47732162475586,
+            "score": 44.713829040527344,
             "face_detected": 1
         },
         {
             "candidate_image_name": "user1_01.jpg",
             "comparing_with_image_name": "user1_03.jpg",
-            "score": 49.22492980957031,
+            "score": 47.79042434692383,
             "face_detected": 1
         },
         {
             "candidate_image_name": "user1_01.jpg",
             "comparing_with_image_name": "user1_04.jpg",
-            "score": 54.341732025146484,
+            "score": 53.90984344482422,
             "face_detected": 1
         },
         {
             "candidate_image_name": "user1_01.jpg",
             "comparing_with_image_name": "user1_05.jpg",
-            "score": 0.0,
-            "face_detected": 0
+            "score": 41.88011169433594,
+            "face_detected": 1
         },
         {
             "candidate_image_name": "user1_01.jpg",
             "comparing_with_image_name": "user1_06.jpg",
-            "score": 49.24845886230469,
+            "score": 47.23476028442383,
             "face_detected": 1
         },
         {
             "candidate_image_name": "user1_02.jpg",
             "comparing_with_image_name": "user1_03.jpg",
-            "score": 77.86873626708984,
+            "score": 78.34258270263672,
             "face_detected": 1
         },
         {
             "candidate_image_name": "user1_02.jpg",
             "comparing_with_image_name": "user1_04.jpg",
-            "score": 67.13577270507812,
+            "score": 67.57929229736328,
             "face_detected": 1
         },
         {
             "candidate_image_name": "user1_02.jpg",
             "comparing_with_image_name": "user1_05.jpg",
-            "score": 0.0,
-            "face_detected": 0
+            "score": 46.854251861572266,
+            "face_detected": 1
         },
         {
             "candidate_image_name": "user1_02.jpg",
             "comparing_with_image_name": "user1_06.jpg",
-            "score": 53.70501708984375,
+            "score": 53.57164001464844,
             "face_detected": 1
         },
         {
             "candidate_image_name": "user1_03.jpg",
             "comparing_with_image_name": "user1_04.jpg",
-            "score": 79.22755432128906,
+            "score": 79.01590728759766,
             "face_detected": 1
         },
         {
             "candidate_image_name": "user1_03.jpg",
             "comparing_with_image_name": "user1_05.jpg",
-            "score": 0.0,
-            "face_detected": 0
+            "score": 54.412166595458984,
+            "face_detected": 1
         },
         {
             "candidate_image_name": "user1_03.jpg",
             "comparing_with_image_name": "user1_06.jpg",
-            "score": 64.22417449951172,
+            "score": 65.12971496582031,
             "face_detected": 1
         },
         {
             "candidate_image_name": "user1_04.jpg",
             "comparing_with_image_name": "user1_05.jpg",
-            "score": 0.0,
-            "face_detected": 0
+            "score": 58.26252746582031,
+            "face_detected": 1
         },
         {
             "candidate_image_name": "user1_04.jpg",
             "comparing_with_image_name": "user1_06.jpg",
-            "score": 64.64175415039062,
+            "score": 64.49455261230469,
             "face_detected": 1
         },
         {
             "candidate_image_name": "user1_05.jpg",
-            "comparing_with_image_name": "no_references",
-            "score": 0.0,
-            "face_detected": 0,
-            "note": "no_reference_results_found"
+            "comparing_with_image_name": "user1_06.jpg",
+            "score": 54.07468032836914,
+            "face_detected": 1
         }
     ]
 }

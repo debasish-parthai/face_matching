@@ -1,66 +1,66 @@
 {
-    "average_score": 60.462019729614255,
+    "average_score": 60.98090744018555,
     "total_scores_count": 10,
     "user": "user22",
     "comparisons_summary": [
         {
             "candidate_image_name": "user22_01.jpg",
             "comparing_with_image_name": "user22_02.jpg",
-            "score": 69.96790313720703,
+            "score": 70.84033966064453,
             "face_detected": 1
         },
         {
             "candidate_image_name": "user22_01.jpg",
             "comparing_with_image_name": "user22_03.jpg",
-            "score": 63.03586959838867,
+            "score": 64.09886169433594,
             "face_detected": 1
         },
         {
             "candidate_image_name": "user22_01.jpg",
             "comparing_with_image_name": "user22_04.jpg",
-            "score": 58.901084899902344,
+            "score": 58.46669006347656,
             "face_detected": 1
         },
         {
             "candidate_image_name": "user22_01.jpg",
             "comparing_with_image_name": "user22_05.jpg",
-            "score": 66.057861328125,
+            "score": 66.06940460205078,
             "face_detected": 1
         },
         {
             "candidate_image_name": "user22_02.jpg",
             "comparing_with_image_name": "user22_03.jpg",
-            "score": 66.8993911743164,
+            "score": 67.59917449951172,
             "face_detected": 1
         },
         {
             "candidate_image_name": "user22_02.jpg",
             "comparing_with_image_name": "user22_04.jpg",
-            "score": 66.0018310546875,
+            "score": 66.9450912475586,
             "face_detected": 1
         },
         {
             "candidate_image_name": "user22_02.jpg",
             "comparing_with_image_name": "user22_05.jpg",
-            "score": 53.4682502746582,
+            "score": 56.17058181762695,
             "face_detected": 1
         },
         {
             "candidate_image_name": "user22_03.jpg",
             "comparing_with_image_name": "user22_04.jpg",
-            "score": 57.95905685424805,
+            "score": 59.324764251708984,
             "face_detected": 1
         },
         {
             "candidate_image_name": "user22_03.jpg",
             "comparing_with_image_name": "user22_05.jpg",
-            "score": 53.203857421875,
+            "score": 53.25682830810547,
             "face_detected": 1
         },
         {
             "candidate_image_name": "user22_04.jpg",
             "comparing_with_image_name": "user22_05.jpg",
-            "score": 49.125091552734375,
+            "score": 47.03733825683594,
             "face_detected": 1
         }
     ]

@@ -1,42 +1,42 @@
 {
-    "average_score": 54.583773930867515,
+    "average_score": 54.979818979899086,
     "total_scores_count": 6,
     "user": "user16",
     "comparisons_summary": [
         {
             "candidate_image_name": "user16_01.jpg",
             "comparing_with_image_name": "user16_02.jpg",
-            "score": 49.56624221801758,
+            "score": 49.87326431274414,
             "face_detected": 1
         },
         {
             "candidate_image_name": "user16_01.jpg",
             "comparing_with_image_name": "user16_03.jpg",
-            "score": 48.058860778808594,
+            "score": 48.92681884765625,
             "face_detected": 1
         },
         {
             "candidate_image_name": "user16_01.jpg",
             "comparing_with_image_name": "user16_04.jpg",
-            "score": 52.017581939697266,
+            "score": 52.9862174987793,
             "face_detected": 1
         },
         {
             "candidate_image_name": "user16_02.jpg",
             "comparing_with_image_name": "user16_03.jpg",
-            "score": 53.320167541503906,
+            "score": 53.96929931640625,
             "face_detected": 1
         },
         {
             "candidate_image_name": "user16_02.jpg",
             "comparing_with_image_name": "user16_04.jpg",
-            "score": 49.56342697143555,
+            "score": 49.171875,
             "face_detected": 1
         },
         {
             "candidate_image_name": "user16_03.jpg",
             "comparing_with_image_name": "user16_04.jpg",
-            "score": 74.97636413574219,
+            "score": 74.9514389038086,
             "face_detected": 1
         }
     ]

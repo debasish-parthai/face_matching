@@ -1,44 +1,66 @@
 {
-    "average_score": 65.02272987365723,
-    "total_scores_count": 4,
+    "average_score": 60.198826217651366,
+    "total_scores_count": 10,
     "user": "user4",
     "comparisons_summary": [
         {
             "candidate_image_name": "user4_01.jpg",
-            "comparing_with_image_name": "no_references",
-            "score": 0.0,
-            "face_detected": 0,
-            "note": "no_reference_results_found"
+            "comparing_with_image_name": "user4_02.jpg",
+            "score": 38.76410675048828,
+            "face_detected": 1
+        },
+        {
+            "candidate_image_name": "user4_01.jpg",
+            "comparing_with_image_name": "user4_03.jpg",
+            "score": 77.06873321533203,
+            "face_detected": 1
+        },
+        {
+            "candidate_image_name": "user4_01.jpg",
+            "comparing_with_image_name": "user4_04.jpg",
+            "score": 55.937896728515625,
+            "face_detected": 1
+        },
+        {
+            "candidate_image_name": "user4_01.jpg",
+            "comparing_with_image_name": "user4_05.jpg",
+            "score": 42.059043884277344,
+            "face_detected": 1
         },
         {
             "candidate_image_name": "user4_02.jpg",
             "comparing_with_image_name": "user4_03.jpg",
-            "score": 0.0,
-            "face_detected": 0
+            "score": 39.55097961425781,
+            "face_detected": 1
         },
         {
             "candidate_image_name": "user4_02.jpg",
             "comparing_with_image_name": "user4_04.jpg",
-            "score": 82.15292358398438,
+            "score": 76.8258285522461,
             "face_detected": 1
         },
         {
             "candidate_image_name": "user4_02.jpg",
             "comparing_with_image_name": "user4_05.jpg",
-            "score": 91.59443664550781,
+            "score": 91.3878402709961,
             "face_detected": 1
         },
         {
             "candidate_image_name": "user4_03.jpg",
-            "comparing_with_image_name": "no_references",
-            "score": 0.0,
-            "face_detected": 0,
-            "note": "no_reference_results_found"
+            "comparing_with_image_name": "user4_04.jpg",
+            "score": 53.58918762207031,
+            "face_detected": 1
+        },
+        {
+            "candidate_image_name": "user4_03.jpg",
+            "comparing_with_image_name": "user4_05.jpg",
+            "score": 44.582820892333984,
+            "face_detected": 1
         },
         {
             "candidate_image_name": "user4_04.jpg",
             "comparing_with_image_name": "user4_05.jpg",
-            "score": 86.34355926513672,
+            "score": 82.2218246459961,
             "face_detected": 1
         }
     ]
