@@ -1,6 +1,6 @@
 {
-    "average_score": 73.01391716003418,
-    "total_scores_count": 10,
+    "average_score": 69.73640378316243,
+    "total_scores_count": 6,
     "user": "user23",
     "comparisons_summary": [
         {
@@ -12,54 +12,30 @@
         {
             "candidate_image_name": "user23_01.jpg",
             "comparing_with_image_name": "user23_03.jpg",
-            "score": 100,
-            "face_detected": 1
-        },
-        {
-            "candidate_image_name": "user23_01.jpg",
-            "comparing_with_image_name": "user23_04.jpg",
             "score": 68.52684783935547,
             "face_detected": 1
         },
         {
             "candidate_image_name": "user23_01.jpg",
-            "comparing_with_image_name": "user23_05.jpg",
+            "comparing_with_image_name": "user23_04.jpg",
             "score": 72.79283142089844,
             "face_detected": 1
         },
         {
             "candidate_image_name": "user23_02.jpg",
             "comparing_with_image_name": "user23_03.jpg",
-            "score": 70.40106964111328,
-            "face_detected": 1
-        },
-        {
-            "candidate_image_name": "user23_02.jpg",
-            "comparing_with_image_name": "user23_04.jpg",
             "score": 60.32724380493164,
             "face_detected": 1
         },
         {
             "candidate_image_name": "user23_02.jpg",
-            "comparing_with_image_name": "user23_05.jpg",
+            "comparing_with_image_name": "user23_04.jpg",
             "score": 73.9372787475586,
             "face_detected": 1
         },
         {
             "candidate_image_name": "user23_03.jpg",
             "comparing_with_image_name": "user23_04.jpg",
-            "score": 68.52684783935547,
-            "face_detected": 1
-        },
-        {
-            "candidate_image_name": "user23_03.jpg",
-            "comparing_with_image_name": "user23_05.jpg",
-            "score": 72.79283142089844,
-            "face_detected": 1
-        },
-        {
-            "candidate_image_name": "user23_04.jpg",
-            "comparing_with_image_name": "user23_05.jpg",
             "score": 72.43315124511719,
             "face_detected": 1
         }

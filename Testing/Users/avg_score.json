@@ -1,5 +1,5 @@
 {
-    "total_average_score": 66.619267721267,
+    "total_average_score": 65.63447634379071,
     "total_users_processed": 25,
     "total_users_expected": 25,
     "users_summary": [
@@ -20,8 +20,8 @@
         },
         {
             "user": "user4",
-            "average_score": 60.198826217651366,
-            "total_scores_count": 10
+            "average_score": 56.956122080485024,
+            "total_scores_count": 6
         },
         {
             "user": "user5",
@@ -45,13 +45,13 @@
         },
         {
             "user": "user9",
-            "average_score": 79.89517288208008,
-            "total_scores_count": 10
+            "average_score": 76.25821431477864,
+            "total_scores_count": 6
         },
         {
             "user": "user10",
-            "average_score": 62.93995819091797,
-            "total_scores_count": 10
+            "average_score": 60.48073641459147,
+            "total_scores_count": 6
         },
         {
             "user": "user11",
@@ -115,18 +115,18 @@
         },
         {
             "user": "user23",
-            "average_score": 73.01391716003418,
-            "total_scores_count": 10
+            "average_score": 69.73640378316243,
+            "total_scores_count": 6
         },
         {
             "user": "user24",
-            "average_score": 67.46472821916852,
-            "total_scores_count": 28
+            "average_score": 57.27113469441732,
+            "total_scores_count": 6
         },
         {
             "user": "user25",
-            "average_score": 54.32267070951916,
-            "total_scores_count": 21
+            "average_score": 52.5128776550293,
+            "total_scores_count": 15
         }
     ],
     "problematic_comparisons_summary": [],

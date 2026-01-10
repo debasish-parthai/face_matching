@@ -76,6 +76,10 @@ def calculate_avg_score():
                 print(f"Error processing {json_file}: {e}")
                 continue
 
+        # Filter out invalid comparisons (face_detected = 0 or score = 0.0)
+        valid_comparisons = [comp for comp in comparisons_summary
+                           if comp.get("face_detected", 0) > 0 and comp.get("score", 0.0) > 0.0]
+
         # Calculate average and create summary
         if total_count > 0:
             average_score = sum(total_scores) / total_count
@@ -85,7 +89,7 @@ def calculate_avg_score():
                 "average_score": average_score,
                 "total_scores_count": total_count,
                 "user": user_dir,
-                "comparisons_summary": comparisons_summary
+                "comparisons_summary": valid_comparisons
             }
 
             avg_score_path = os.path.join(compare_results_path, "avg_score.json")
@@ -99,7 +103,7 @@ def calculate_avg_score():
                 "average_score": 0.0,
                 "total_scores_count": 0,
                 "user": user_dir,
-                "comparisons_summary": comparisons_summary,
+                "comparisons_summary": valid_comparisons,
                 "note": "no_valid_scores_found"
             }
 
@@ -107,7 +111,7 @@ def calculate_avg_score():
             with open(avg_score_path, 'w') as f:
                 json.dump(avg_score_data, f, indent=4)
 
-            print(f"No valid scores found for {user_dir}, saved summary with {len(comparisons_summary)} entries")
+            print(f"No valid scores found for {user_dir}, saved summary with {len(valid_comparisons)} entries")
 
 if __name__ == "__main__":
     calculate_avg_score()
