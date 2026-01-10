@@ -1,0 +1,14 @@
+{
+  "max_score": {
+    "candidate_image_name": "user13_01.jpg",
+    "comparing_with_image_name": "user13_04.jpg",
+    "score": 78.89085388183594,
+    "face_detected": 1
+  },
+  "min_score": {
+    "candidate_image_name": "user13_03.jpg",
+    "comparing_with_image_name": "user13_04.jpg",
+    "score": 57.92047882080078,
+    "face_detected": 1
+  }
+}
