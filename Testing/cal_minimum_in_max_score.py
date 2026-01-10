@@ -67,6 +67,10 @@ class MinMaxScoreAnalyzer:
         min_among_min_scores = min(min_scores_data, key=lambda x: x['score'])
         max_among_min_scores = max(min_scores_data, key=lambda x: x['score'])
 
+        # Sort collections in descending order by score
+        max_scores_descending = sorted(max_scores_data, key=lambda x: x['score'], reverse=True)
+        min_scores_descending = sorted(min_scores_data, key=lambda x: x['score'], reverse=True)
+
         # Create result structure
         result = {
             "analysis_summary": {
@@ -96,7 +100,9 @@ class MinMaxScoreAnalyzer:
                 "comparing_with_image_name": max_among_min_scores["comparing_with_image_name"],
                 "score": max_among_min_scores["score"],
                 "face_detected": max_among_min_scores["face_detected"]
-            }
+            },
+            "all_max_scores_descending": max_scores_descending,
+            "all_min_scores_descending": min_scores_descending
         }
 
         logger.info(f"Analysis complete:")
