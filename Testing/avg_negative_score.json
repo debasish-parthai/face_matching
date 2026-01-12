@@ -1,0 +1,1587 @@
+{
+    "overall_summary": {
+        "total_users_processed": 4,
+        "users_list": [
+            "user1",
+            "user2",
+            "user3",
+            "user4"
+        ],
+        "overall_average_score": 6.3241787112395595,
+        "total_scores_across_all_users": 192,
+        "total_high_scores_across_all_users": 108,
+        "data_type": "combined_false_negative"
+    },
+    "user_summaries": [
+        {
+            "user": "user1",
+            "average_score": 8.2796685838451,
+            "total_scores_count": 96,
+            "high_score_count": 68
+        },
+        {
+            "user": "user2",
+            "average_score": 4.931376475375146,
+            "total_scores_count": 48,
+            "high_score_count": 15
+        },
+        {
+            "user": "user3",
+            "average_score": 6.60228182002902,
+            "total_scores_count": 32,
+            "high_score_count": 18
+        },
+        {
+            "user": "user4",
+            "average_score": 5.483387965708971,
+            "total_scores_count": 16,
+            "high_score_count": 7
+        }
+    ],
+    "all_comparisons_sorted_desc": [
+        {
+            "candidate_image_name": "user2_04.jpg",
+            "comparing_with_image_name": "user4_04.jpg",
+            "score": 20.567256927490234,
+            "face_detected": 1,
+            "compared_user": "user4",
+            "source_user": "user2"
+        },
+        {
+            "candidate_image_name": "user1_05.jpg",
+            "comparing_with_image_name": "user4_01.jpg",
+            "score": 19.72905921936035,
+            "face_detected": 1,
+            "compared_user": "user4",
+            "source_user": "user1"
+        },
+        {
+            "candidate_image_name": "user2_04.jpg",
+            "comparing_with_image_name": "user4_02.jpg",
+            "score": 19.436120986938477,
+            "face_detected": 1,
+            "compared_user": "user4",
+            "source_user": "user2"
+        },
+        {
+            "candidate_image_name": "user3_03.jpg",
+            "comparing_with_image_name": "user4_01.jpg",
+            "score": 19.184328079223633,
+            "face_detected": 1,
+            "compared_user": "user4",
+            "source_user": "user3"
+        },
+        {
+            "candidate_image_name": "user1_01.jpg",
+            "comparing_with_image_name": "user3_01.jpg",
+            "score": 19.006559371948242,
+            "face_detected": 1,
+            "compared_user": "user3",
+            "source_user": "user1"
+        },
+        {
+            "candidate_image_name": "user1_04.jpg",
+            "comparing_with_image_name": "user3_01.jpg",
+            "score": 18.58428192138672,
+            "face_detected": 1,
+            "compared_user": "user3",
+            "source_user": "user1"
+        },
+        {
+            "candidate_image_name": "user3_03.jpg",
+            "comparing_with_image_name": "user4_03.jpg",
+            "score": 17.9853458404541,
+            "face_detected": 1,
+            "compared_user": "user4",
+            "source_user": "user3"
+        },
+        {
+            "candidate_image_name": "user1_01.jpg",
+            "comparing_with_image_name": "user3_04.jpg",
+            "score": 17.751419067382812,
+            "face_detected": 1,
+            "compared_user": "user3",
+            "source_user": "user1"
+        },
+        {
+            "candidate_image_name": "user1_04.jpg",
+            "comparing_with_image_name": "user5_04.jpg",
+            "score": 17.24558448791504,
+            "face_detected": 1,
+            "compared_user": "user5",
+            "source_user": "user1"
+        },
+        {
+            "candidate_image_name": "user2_03.jpg",
+            "comparing_with_image_name": "user4_02.jpg",
+            "score": 16.969894409179688,
+            "face_detected": 1,
+            "compared_user": "user4",
+            "source_user": "user2"
+        },
+        {
+            "candidate_image_name": "user2_02.jpg",
+            "comparing_with_image_name": "user4_02.jpg",
+            "score": 16.89731788635254,
+            "face_detected": 1,
+            "compared_user": "user4",
+            "source_user": "user2"
+        },
+        {
+            "candidate_image_name": "user1_03.jpg",
+            "comparing_with_image_name": "user5_04.jpg",
+            "score": 16.702722549438477,
+            "face_detected": 1,
+            "compared_user": "user5",
+            "source_user": "user1"
+        },
+        {
+            "candidate_image_name": "user2_02.jpg",
+            "comparing_with_image_name": "user4_04.jpg",
+            "score": 16.510595321655273,
+            "face_detected": 1,
+            "compared_user": "user4",
+            "source_user": "user2"
+        },
+        {
+            "candidate_image_name": "user2_03.jpg",
+            "comparing_with_image_name": "user4_04.jpg",
+            "score": 16.398910522460938,
+            "face_detected": 1,
+            "compared_user": "user4",
+            "source_user": "user2"
+        },
+        {
+            "candidate_image_name": "user1_03.jpg",
+            "comparing_with_image_name": "user3_01.jpg",
+            "score": 16.2766170501709,
+            "face_detected": 1,
+            "compared_user": "user3",
+            "source_user": "user1"
+        },
+        {
+            "candidate_image_name": "user1_05.jpg",
+            "comparing_with_image_name": "user4_03.jpg",
+            "score": 15.927611351013184,
+            "face_detected": 1,
+            "compared_user": "user4",
+            "source_user": "user1"
+        },
+        {
+            "candidate_image_name": "user1_04.jpg",
+            "comparing_with_image_name": "user5_03.jpg",
+            "score": 15.808794021606445,
+            "face_detected": 1,
+            "compared_user": "user5",
+            "source_user": "user1"
+        },
+        {
+            "candidate_image_name": "user2_02.jpg",
+            "comparing_with_image_name": "user3_02.jpg",
+            "score": 14.845529556274414,
+            "face_detected": 1,
+            "compared_user": "user3",
+            "source_user": "user2"
+        },
+        {
+            "candidate_image_name": "user1_06.jpg",
+            "comparing_with_image_name": "user5_04.jpg",
+            "score": 14.772912979125977,
+            "face_detected": 1,
+            "compared_user": "user5",
+            "source_user": "user1"
+        },
+        {
+            "candidate_image_name": "user1_02.jpg",
+            "comparing_with_image_name": "user3_01.jpg",
+            "score": 14.502602577209473,
+            "face_detected": 1,
+            "compared_user": "user3",
+            "source_user": "user1"
+        },
+        {
+            "candidate_image_name": "user1_06.jpg",
+            "comparing_with_image_name": "user5_03.jpg",
+            "score": 14.413595199584961,
+            "face_detected": 1,
+            "compared_user": "user5",
+            "source_user": "user1"
+        },
+        {
+            "candidate_image_name": "user1_05.jpg",
+            "comparing_with_image_name": "user5_02.jpg",
+            "score": 14.344512939453125,
+            "face_detected": 1,
+            "compared_user": "user5",
+            "source_user": "user1"
+        },
+        {
+            "candidate_image_name": "user1_05.jpg",
+            "comparing_with_image_name": "user5_04.jpg",
+            "score": 14.025788307189941,
+            "face_detected": 1,
+            "compared_user": "user5",
+            "source_user": "user1"
+        },
+        {
+            "candidate_image_name": "user1_05.jpg",
+            "comparing_with_image_name": "user5_03.jpg",
+            "score": 14.012011528015137,
+            "face_detected": 1,
+            "compared_user": "user5",
+            "source_user": "user1"
+        },
+        {
+            "candidate_image_name": "user1_05.jpg",
+            "comparing_with_image_name": "user3_01.jpg",
+            "score": 13.755200386047363,
+            "face_detected": 1,
+            "compared_user": "user3",
+            "source_user": "user1"
+        },
+        {
+            "candidate_image_name": "user1_06.jpg",
+            "comparing_with_image_name": "user5_01.jpg",
+            "score": 13.74825668334961,
+            "face_detected": 1,
+            "compared_user": "user5",
+            "source_user": "user1"
+        },
+        {
+            "candidate_image_name": "user1_01.jpg",
+            "comparing_with_image_name": "user2_04.jpg",
+            "score": 13.648957252502441,
+            "face_detected": 1,
+            "compared_user": "user2",
+            "source_user": "user1"
+        },
+        {
+            "candidate_image_name": "user1_06.jpg",
+            "comparing_with_image_name": "user3_01.jpg",
+            "score": 13.365440368652344,
+            "face_detected": 1,
+            "compared_user": "user3",
+            "source_user": "user1"
+        },
+        {
+            "candidate_image_name": "user1_05.jpg",
+            "comparing_with_image_name": "user4_04.jpg",
+            "score": 13.244157791137695,
+            "face_detected": 1,
+            "compared_user": "user4",
+            "source_user": "user1"
+        },
+        {
+            "candidate_image_name": "user3_02.jpg",
+            "comparing_with_image_name": "user4_01.jpg",
+            "score": 13.141709327697754,
+            "face_detected": 1,
+            "compared_user": "user4",
+            "source_user": "user3"
+        },
+        {
+            "candidate_image_name": "user1_04.jpg",
+            "comparing_with_image_name": "user3_04.jpg",
+            "score": 13.042141914367676,
+            "face_detected": 1,
+            "compared_user": "user3",
+            "source_user": "user1"
+        },
+        {
+            "candidate_image_name": "user4_02.jpg",
+            "comparing_with_image_name": "user5_01.jpg",
+            "score": 12.726810455322266,
+            "face_detected": 1,
+            "compared_user": "user5",
+            "source_user": "user4"
+        },
+        {
+            "candidate_image_name": "user2_01.jpg",
+            "comparing_with_image_name": "user4_02.jpg",
+            "score": 12.661355972290039,
+            "face_detected": 1,
+            "compared_user": "user4",
+            "source_user": "user2"
+        },
+        {
+            "candidate_image_name": "user1_03.jpg",
+            "comparing_with_image_name": "user5_01.jpg",
+            "score": 12.619625091552734,
+            "face_detected": 1,
+            "compared_user": "user5",
+            "source_user": "user1"
+        },
+        {
+            "candidate_image_name": "user3_04.jpg",
+            "comparing_with_image_name": "user4_03.jpg",
+            "score": 12.331789016723633,
+            "face_detected": 1,
+            "compared_user": "user4",
+            "source_user": "user3"
+        },
+        {
+            "candidate_image_name": "user1_04.jpg",
+            "comparing_with_image_name": "user5_02.jpg",
+            "score": 12.06482219696045,
+            "face_detected": 1,
+            "compared_user": "user5",
+            "source_user": "user1"
+        },
+        {
+            "candidate_image_name": "user1_06.jpg",
+            "comparing_with_image_name": "user5_02.jpg",
+            "score": 11.997739791870117,
+            "face_detected": 1,
+            "compared_user": "user5",
+            "source_user": "user1"
+        },
+        {
+            "candidate_image_name": "user1_03.jpg",
+            "comparing_with_image_name": "user5_03.jpg",
+            "score": 11.675289154052734,
+            "face_detected": 1,
+            "compared_user": "user5",
+            "source_user": "user1"
+        },
+        {
+            "candidate_image_name": "user3_03.jpg",
+            "comparing_with_image_name": "user4_04.jpg",
+            "score": 11.667244911193848,
+            "face_detected": 1,
+            "compared_user": "user4",
+            "source_user": "user3"
+        },
+        {
+            "candidate_image_name": "user1_04.jpg",
+            "comparing_with_image_name": "user5_01.jpg",
+            "score": 11.550228118896484,
+            "face_detected": 1,
+            "compared_user": "user5",
+            "source_user": "user1"
+        },
+        {
+            "candidate_image_name": "user4_02.jpg",
+            "comparing_with_image_name": "user5_02.jpg",
+            "score": 11.491677284240723,
+            "face_detected": 1,
+            "compared_user": "user5",
+            "source_user": "user4"
+        },
+        {
+            "candidate_image_name": "user2_02.jpg",
+            "comparing_with_image_name": "user3_04.jpg",
+            "score": 11.478667259216309,
+            "face_detected": 1,
+            "compared_user": "user3",
+            "source_user": "user2"
+        },
+        {
+            "candidate_image_name": "user3_04.jpg",
+            "comparing_with_image_name": "user4_01.jpg",
+            "score": 11.313754081726074,
+            "face_detected": 1,
+            "compared_user": "user4",
+            "source_user": "user3"
+        },
+        {
+            "candidate_image_name": "user2_02.jpg",
+            "comparing_with_image_name": "user3_03.jpg",
+            "score": 11.261512756347656,
+            "face_detected": 1,
+            "compared_user": "user3",
+            "source_user": "user2"
+        },
+        {
+            "candidate_image_name": "user1_02.jpg",
+            "comparing_with_image_name": "user5_04.jpg",
+            "score": 11.149131774902344,
+            "face_detected": 1,
+            "compared_user": "user5",
+            "source_user": "user1"
+        },
+        {
+            "candidate_image_name": "user1_06.jpg",
+            "comparing_with_image_name": "user3_04.jpg",
+            "score": 11.12813663482666,
+            "face_detected": 1,
+            "compared_user": "user3",
+            "source_user": "user1"
+        },
+        {
+            "candidate_image_name": "user1_01.jpg",
+            "comparing_with_image_name": "user3_03.jpg",
+            "score": 11.000847816467285,
+            "face_detected": 1,
+            "compared_user": "user3",
+            "source_user": "user1"
+        },
+        {
+            "candidate_image_name": "user1_05.jpg",
+            "comparing_with_image_name": "user4_02.jpg",
+            "score": 10.938786506652832,
+            "face_detected": 1,
+            "compared_user": "user4",
+            "source_user": "user1"
+        },
+        {
+            "candidate_image_name": "user1_05.jpg",
+            "comparing_with_image_name": "user3_04.jpg",
+            "score": 10.90954875946045,
+            "face_detected": 1,
+            "compared_user": "user3",
+            "source_user": "user1"
+        },
+        {
+            "candidate_image_name": "user4_02.jpg",
+            "comparing_with_image_name": "user5_03.jpg",
+            "score": 10.870844841003418,
+            "face_detected": 1,
+            "compared_user": "user5",
+            "source_user": "user4"
+        },
+        {
+            "candidate_image_name": "user1_01.jpg",
+            "comparing_with_image_name": "user3_02.jpg",
+            "score": 10.69741439819336,
+            "face_detected": 1,
+            "compared_user": "user3",
+            "source_user": "user1"
+        },
+        {
+            "candidate_image_name": "user3_02.jpg",
+            "comparing_with_image_name": "user4_03.jpg",
+            "score": 10.655071258544922,
+            "face_detected": 1,
+            "compared_user": "user4",
+            "source_user": "user3"
+        },
+        {
+            "candidate_image_name": "user1_04.jpg",
+            "comparing_with_image_name": "user3_03.jpg",
+            "score": 10.44339656829834,
+            "face_detected": 1,
+            "compared_user": "user3",
+            "source_user": "user1"
+        },
+        {
+            "candidate_image_name": "user3_01.jpg",
+            "comparing_with_image_name": "user4_03.jpg",
+            "score": 10.326871871948242,
+            "face_detected": 1,
+            "compared_user": "user4",
+            "source_user": "user3"
+        },
+        {
+            "candidate_image_name": "user1_03.jpg",
+            "comparing_with_image_name": "user5_02.jpg",
+            "score": 10.323623657226562,
+            "face_detected": 1,
+            "compared_user": "user5",
+            "source_user": "user1"
+        },
+        {
+            "candidate_image_name": "user3_02.jpg",
+            "comparing_with_image_name": "user4_04.jpg",
+            "score": 10.170126914978027,
+            "face_detected": 1,
+            "compared_user": "user4",
+            "source_user": "user3"
+        },
+        {
+            "candidate_image_name": "user1_06.jpg",
+            "comparing_with_image_name": "user2_01.jpg",
+            "score": 10.110711097717285,
+            "face_detected": 1,
+            "compared_user": "user2",
+            "source_user": "user1"
+        },
+        {
+            "candidate_image_name": "user1_06.jpg",
+            "comparing_with_image_name": "user2_02.jpg",
+            "score": 9.62442398071289,
+            "face_detected": 1,
+            "compared_user": "user2",
+            "source_user": "user1"
+        },
+        {
+            "candidate_image_name": "user1_03.jpg",
+            "comparing_with_image_name": "user3_04.jpg",
+            "score": 9.599027633666992,
+            "face_detected": 1,
+            "compared_user": "user3",
+            "source_user": "user1"
+        },
+        {
+            "candidate_image_name": "user1_01.jpg",
+            "comparing_with_image_name": "user4_03.jpg",
+            "score": 9.556085586547852,
+            "face_detected": 1,
+            "compared_user": "user4",
+            "source_user": "user1"
+        },
+        {
+            "candidate_image_name": "user1_01.jpg",
+            "comparing_with_image_name": "user2_01.jpg",
+            "score": 9.416943550109863,
+            "face_detected": 1,
+            "compared_user": "user2",
+            "source_user": "user1"
+        },
+        {
+            "candidate_image_name": "user1_06.jpg",
+            "comparing_with_image_name": "user3_03.jpg",
+            "score": 9.351495742797852,
+            "face_detected": 1,
+            "compared_user": "user3",
+            "source_user": "user1"
+        },
+        {
+            "candidate_image_name": "user1_05.jpg",
+            "comparing_with_image_name": "user3_03.jpg",
+            "score": 9.082661628723145,
+            "face_detected": 1,
+            "compared_user": "user3",
+            "source_user": "user1"
+        },
+        {
+            "candidate_image_name": "user3_03.jpg",
+            "comparing_with_image_name": "user5_03.jpg",
+            "score": 8.876230239868164,
+            "face_detected": 1,
+            "compared_user": "user5",
+            "source_user": "user3"
+        },
+        {
+            "candidate_image_name": "user1_01.jpg",
+            "comparing_with_image_name": "user2_03.jpg",
+            "score": 8.853667259216309,
+            "face_detected": 1,
+            "compared_user": "user2",
+            "source_user": "user1"
+        },
+        {
+            "candidate_image_name": "user2_01.jpg",
+            "comparing_with_image_name": "user4_04.jpg",
+            "score": 8.824509620666504,
+            "face_detected": 1,
+            "compared_user": "user4",
+            "source_user": "user2"
+        },
+        {
+            "candidate_image_name": "user1_06.jpg",
+            "comparing_with_image_name": "user3_02.jpg",
+            "score": 8.463763236999512,
+            "face_detected": 1,
+            "compared_user": "user3",
+            "source_user": "user1"
+        },
+        {
+            "candidate_image_name": "user2_04.jpg",
+            "comparing_with_image_name": "user3_02.jpg",
+            "score": 8.120746612548828,
+            "face_detected": 1,
+            "compared_user": "user3",
+            "source_user": "user2"
+        },
+        {
+            "candidate_image_name": "user1_02.jpg",
+            "comparing_with_image_name": "user5_01.jpg",
+            "score": 8.092528343200684,
+            "face_detected": 1,
+            "compared_user": "user5",
+            "source_user": "user1"
+        },
+        {
+            "candidate_image_name": "user1_06.jpg",
+            "comparing_with_image_name": "user4_01.jpg",
+            "score": 8.079867362976074,
+            "face_detected": 1,
+            "compared_user": "user4",
+            "source_user": "user1"
+        },
+        {
+            "candidate_image_name": "user3_01.jpg",
+            "comparing_with_image_name": "user4_01.jpg",
+            "score": 7.9193315505981445,
+            "face_detected": 1,
+            "compared_user": "user4",
+            "source_user": "user3"
+        },
+        {
+            "candidate_image_name": "user2_03.jpg",
+            "comparing_with_image_name": "user3_02.jpg",
+            "score": 7.817602157592773,
+            "face_detected": 1,
+            "compared_user": "user3",
+            "source_user": "user2"
+        },
+        {
+            "candidate_image_name": "user1_04.jpg",
+            "comparing_with_image_name": "user4_01.jpg",
+            "score": 7.7982892990112305,
+            "face_detected": 1,
+            "compared_user": "user4",
+            "source_user": "user1"
+        },
+        {
+            "candidate_image_name": "user3_04.jpg",
+            "comparing_with_image_name": "user5_04.jpg",
+            "score": 7.716287136077881,
+            "face_detected": 1,
+            "compared_user": "user5",
+            "source_user": "user3"
+        },
+        {
+            "candidate_image_name": "user1_03.jpg",
+            "comparing_with_image_name": "user4_01.jpg",
+            "score": 7.70028018951416,
+            "face_detected": 1,
+            "compared_user": "user4",
+            "source_user": "user1"
+        },
+        {
+            "candidate_image_name": "user1_06.jpg",
+            "comparing_with_image_name": "user4_02.jpg",
+            "score": 7.665981292724609,
+            "face_detected": 1,
+            "compared_user": "user4",
+            "source_user": "user1"
+        },
+        {
+            "candidate_image_name": "user1_01.jpg",
+            "comparing_with_image_name": "user5_03.jpg",
+            "score": 7.607768535614014,
+            "face_detected": 1,
+            "compared_user": "user5",
+            "source_user": "user1"
+        },
+        {
+            "candidate_image_name": "user1_01.jpg",
+            "comparing_with_image_name": "user2_02.jpg",
+            "score": 7.597501754760742,
+            "face_detected": 1,
+            "compared_user": "user2",
+            "source_user": "user1"
+        },
+        {
+            "candidate_image_name": "user1_06.jpg",
+            "comparing_with_image_name": "user2_03.jpg",
+            "score": 7.582230091094971,
+            "face_detected": 1,
+            "compared_user": "user2",
+            "source_user": "user1"
+        },
+        {
+            "candidate_image_name": "user1_02.jpg",
+            "comparing_with_image_name": "user3_04.jpg",
+            "score": 7.369956970214844,
+            "face_detected": 1,
+            "compared_user": "user3",
+            "source_user": "user1"
+        },
+        {
+            "candidate_image_name": "user3_04.jpg",
+            "comparing_with_image_name": "user5_03.jpg",
+            "score": 7.330992221832275,
+            "face_detected": 1,
+            "compared_user": "user5",
+            "source_user": "user3"
+        },
+        {
+            "candidate_image_name": "user1_03.jpg",
+            "comparing_with_image_name": "user3_03.jpg",
+            "score": 7.2445526123046875,
+            "face_detected": 1,
+            "compared_user": "user3",
+            "source_user": "user1"
+        },
+        {
+            "candidate_image_name": "user1_02.jpg",
+            "comparing_with_image_name": "user3_03.jpg",
+            "score": 7.239486217498779,
+            "face_detected": 1,
+            "compared_user": "user3",
+            "source_user": "user1"
+        },
+        {
+            "candidate_image_name": "user3_03.jpg",
+            "comparing_with_image_name": "user5_04.jpg",
+            "score": 7.216914653778076,
+            "face_detected": 1,
+            "compared_user": "user5",
+            "source_user": "user3"
+        },
+        {
+            "candidate_image_name": "user1_02.jpg",
+            "comparing_with_image_name": "user4_01.jpg",
+            "score": 6.998363971710205,
+            "face_detected": 1,
+            "compared_user": "user4",
+            "source_user": "user1"
+        },
+        {
+            "candidate_image_name": "user1_06.jpg",
+            "comparing_with_image_name": "user4_03.jpg",
+            "score": 6.997888565063477,
+            "face_detected": 1,
+            "compared_user": "user4",
+            "source_user": "user1"
+        },
+        {
+            "candidate_image_name": "user1_01.jpg",
+            "comparing_with_image_name": "user4_01.jpg",
+            "score": 6.9338297843933105,
+            "face_detected": 1,
+            "compared_user": "user4",
+            "source_user": "user1"
+        },
+        {
+            "candidate_image_name": "user1_02.jpg",
+            "comparing_with_image_name": "user5_03.jpg",
+            "score": 6.88101863861084,
+            "face_detected": 1,
+            "compared_user": "user5",
+            "source_user": "user1"
+        },
+        {
+            "candidate_image_name": "user4_02.jpg",
+            "comparing_with_image_name": "user5_04.jpg",
+            "score": 6.845138072967529,
+            "face_detected": 1,
+            "compared_user": "user5",
+            "source_user": "user4"
+        },
+        {
+            "candidate_image_name": "user4_04.jpg",
+            "comparing_with_image_name": "user5_03.jpg",
+            "score": 6.72054386138916,
+            "face_detected": 1,
+            "compared_user": "user5",
+            "source_user": "user4"
+        },
+        {
+            "candidate_image_name": "user1_05.jpg",
+            "comparing_with_image_name": "user2_01.jpg",
+            "score": 6.660833358764648,
+            "face_detected": 1,
+            "compared_user": "user2",
+            "source_user": "user1"
+        },
+        {
+            "candidate_image_name": "user1_05.jpg",
+            "comparing_with_image_name": "user3_02.jpg",
+            "score": 6.642289638519287,
+            "face_detected": 1,
+            "compared_user": "user3",
+            "source_user": "user1"
+        },
+        {
+            "candidate_image_name": "user2_03.jpg",
+            "comparing_with_image_name": "user3_03.jpg",
+            "score": 6.5157084465026855,
+            "face_detected": 1,
+            "compared_user": "user3",
+            "source_user": "user2"
+        },
+        {
+            "candidate_image_name": "user3_03.jpg",
+            "comparing_with_image_name": "user5_02.jpg",
+            "score": 6.324275493621826,
+            "face_detected": 1,
+            "compared_user": "user5",
+            "source_user": "user3"
+        },
+        {
+            "candidate_image_name": "user1_05.jpg",
+            "comparing_with_image_name": "user2_04.jpg",
+            "score": 6.210539817810059,
+            "face_detected": 1,
+            "compared_user": "user2",
+            "source_user": "user1"
+        },
+        {
+            "candidate_image_name": "user1_06.jpg",
+            "comparing_with_image_name": "user2_04.jpg",
+            "score": 6.181297779083252,
+            "face_detected": 1,
+            "compared_user": "user2",
+            "source_user": "user1"
+        },
+        {
+            "candidate_image_name": "user1_05.jpg",
+            "comparing_with_image_name": "user5_01.jpg",
+            "score": 6.133053302764893,
+            "face_detected": 1,
+            "compared_user": "user5",
+            "source_user": "user1"
+        },
+        {
+            "candidate_image_name": "user2_03.jpg",
+            "comparing_with_image_name": "user5_03.jpg",
+            "score": 6.119154453277588,
+            "face_detected": 1,
+            "compared_user": "user5",
+            "source_user": "user2"
+        },
+        {
+            "candidate_image_name": "user1_02.jpg",
+            "comparing_with_image_name": "user5_02.jpg",
+            "score": 6.085878372192383,
+            "face_detected": 1,
+            "compared_user": "user5",
+            "source_user": "user1"
+        },
+        {
+            "candidate_image_name": "user3_01.jpg",
+            "comparing_with_image_name": "user5_04.jpg",
+            "score": 5.831328868865967,
+            "face_detected": 1,
+            "compared_user": "user5",
+            "source_user": "user3"
+        },
+        {
+            "candidate_image_name": "user4_04.jpg",
+            "comparing_with_image_name": "user5_02.jpg",
+            "score": 5.747198581695557,
+            "face_detected": 1,
+            "compared_user": "user5",
+            "source_user": "user4"
+        },
+        {
+            "candidate_image_name": "user1_04.jpg",
+            "comparing_with_image_name": "user2_01.jpg",
+            "score": 5.719032287597656,
+            "face_detected": 1,
+            "compared_user": "user2",
+            "source_user": "user1"
+        },
+        {
+            "candidate_image_name": "user3_02.jpg",
+            "comparing_with_image_name": "user4_02.jpg",
+            "score": 5.575212001800537,
+            "face_detected": 1,
+            "compared_user": "user4",
+            "source_user": "user3"
+        },
+        {
+            "candidate_image_name": "user3_04.jpg",
+            "comparing_with_image_name": "user4_04.jpg",
+            "score": 5.476398468017578,
+            "face_detected": 1,
+            "compared_user": "user4",
+            "source_user": "user3"
+        },
+        {
+            "candidate_image_name": "user1_01.jpg",
+            "comparing_with_image_name": "user5_04.jpg",
+            "score": 5.335624694824219,
+            "face_detected": 1,
+            "compared_user": "user5",
+            "source_user": "user1"
+        },
+        {
+            "candidate_image_name": "user4_03.jpg",
+            "comparing_with_image_name": "user5_02.jpg",
+            "score": 5.147165775299072,
+            "face_detected": 1,
+            "compared_user": "user5",
+            "source_user": "user4"
+        },
+        {
+            "candidate_image_name": "user1_02.jpg",
+            "comparing_with_image_name": "user2_01.jpg",
+            "score": 5.126189708709717,
+            "face_detected": 1,
+            "compared_user": "user2",
+            "source_user": "user1"
+        },
+        {
+            "candidate_image_name": "user1_03.jpg",
+            "comparing_with_image_name": "user2_01.jpg",
+            "score": 5.077380180358887,
+            "face_detected": 1,
+            "compared_user": "user2",
+            "source_user": "user1"
+        },
+        {
+            "candidate_image_name": "user4_03.jpg",
+            "comparing_with_image_name": "user5_03.jpg",
+            "score": 4.990644931793213,
+            "face_detected": 1,
+            "compared_user": "user5",
+            "source_user": "user4"
+        },
+        {
+            "candidate_image_name": "user1_01.jpg",
+            "comparing_with_image_name": "user5_02.jpg",
+            "score": 4.88291072845459,
+            "face_detected": 1,
+            "compared_user": "user5",
+            "source_user": "user1"
+        },
+        {
+            "candidate_image_name": "user1_05.jpg",
+            "comparing_with_image_name": "user2_03.jpg",
+            "score": 4.874603271484375,
+            "face_detected": 1,
+            "compared_user": "user2",
+            "source_user": "user1"
+        },
+        {
+            "candidate_image_name": "user3_04.jpg",
+            "comparing_with_image_name": "user4_02.jpg",
+            "score": 4.753057479858398,
+            "face_detected": 1,
+            "compared_user": "user4",
+            "source_user": "user3"
+        },
+        {
+            "candidate_image_name": "user1_05.jpg",
+            "comparing_with_image_name": "user2_02.jpg",
+            "score": 4.744040012359619,
+            "face_detected": 1,
+            "compared_user": "user2",
+            "source_user": "user1"
+        },
+        {
+            "candidate_image_name": "user1_02.jpg",
+            "comparing_with_image_name": "user4_02.jpg",
+            "score": 4.586925506591797,
+            "face_detected": 1,
+            "compared_user": "user4",
+            "source_user": "user1"
+        },
+        {
+            "candidate_image_name": "user1_02.jpg",
+            "comparing_with_image_name": "user2_04.jpg",
+            "score": 4.553274631500244,
+            "face_detected": 1,
+            "compared_user": "user2",
+            "source_user": "user1"
+        },
+        {
+            "candidate_image_name": "user4_04.jpg",
+            "comparing_with_image_name": "user5_01.jpg",
+            "score": 4.482224941253662,
+            "face_detected": 1,
+            "compared_user": "user5",
+            "source_user": "user4"
+        },
+        {
+            "candidate_image_name": "user1_04.jpg",
+            "comparing_with_image_name": "user3_02.jpg",
+            "score": 4.455850124359131,
+            "face_detected": 1,
+            "compared_user": "user3",
+            "source_user": "user1"
+        },
+        {
+            "candidate_image_name": "user2_01.jpg",
+            "comparing_with_image_name": "user3_02.jpg",
+            "score": 4.405600547790527,
+            "face_detected": 1,
+            "compared_user": "user3",
+            "source_user": "user2"
+        },
+        {
+            "candidate_image_name": "user1_04.jpg",
+            "comparing_with_image_name": "user2_03.jpg",
+            "score": 4.382182598114014,
+            "face_detected": 1,
+            "compared_user": "user2",
+            "source_user": "user1"
+        },
+        {
+            "candidate_image_name": "user4_03.jpg",
+            "comparing_with_image_name": "user5_01.jpg",
+            "score": 4.333303451538086,
+            "face_detected": 1,
+            "compared_user": "user5",
+            "source_user": "user4"
+        },
+        {
+            "candidate_image_name": "user3_03.jpg",
+            "comparing_with_image_name": "user5_01.jpg",
+            "score": 4.27028226852417,
+            "face_detected": 1,
+            "compared_user": "user5",
+            "source_user": "user3"
+        },
+        {
+            "candidate_image_name": "user3_04.jpg",
+            "comparing_with_image_name": "user5_02.jpg",
+            "score": 4.250858783721924,
+            "face_detected": 1,
+            "compared_user": "user5",
+            "source_user": "user3"
+        },
+        {
+            "candidate_image_name": "user2_04.jpg",
+            "comparing_with_image_name": "user4_01.jpg",
+            "score": 4.244481086730957,
+            "face_detected": 1,
+            "compared_user": "user4",
+            "source_user": "user2"
+        },
+        {
+            "candidate_image_name": "user2_03.jpg",
+            "comparing_with_image_name": "user4_01.jpg",
+            "score": 4.2302565574646,
+            "face_detected": 1,
+            "compared_user": "user4",
+            "source_user": "user2"
+        },
+        {
+            "candidate_image_name": "user4_03.jpg",
+            "comparing_with_image_name": "user5_04.jpg",
+            "score": 4.218512535095215,
+            "face_detected": 1,
+            "compared_user": "user5",
+            "source_user": "user4"
+        },
+        {
+            "candidate_image_name": "user3_03.jpg",
+            "comparing_with_image_name": "user4_02.jpg",
+            "score": 4.158705711364746,
+            "face_detected": 1,
+            "compared_user": "user4",
+            "source_user": "user3"
+        },
+        {
+            "candidate_image_name": "user1_04.jpg",
+            "comparing_with_image_name": "user2_04.jpg",
+            "score": 4.1438398361206055,
+            "face_detected": 1,
+            "compared_user": "user2",
+            "source_user": "user1"
+        },
+        {
+            "candidate_image_name": "user1_06.jpg",
+            "comparing_with_image_name": "user4_04.jpg",
+            "score": 4.083651542663574,
+            "face_detected": 1,
+            "compared_user": "user4",
+            "source_user": "user1"
+        },
+        {
+            "candidate_image_name": "user3_01.jpg",
+            "comparing_with_image_name": "user4_04.jpg",
+            "score": 4.056356906890869,
+            "face_detected": 1,
+            "compared_user": "user4",
+            "source_user": "user3"
+        },
+        {
+            "candidate_image_name": "user4_04.jpg",
+            "comparing_with_image_name": "user5_04.jpg",
+            "score": 3.8875203132629395,
+            "face_detected": 1,
+            "compared_user": "user5",
+            "source_user": "user4"
+        },
+        {
+            "candidate_image_name": "user1_02.jpg",
+            "comparing_with_image_name": "user4_03.jpg",
+            "score": 3.74497127532959,
+            "face_detected": 1,
+            "compared_user": "user4",
+            "source_user": "user1"
+        },
+        {
+            "candidate_image_name": "user2_03.jpg",
+            "comparing_with_image_name": "user5_02.jpg",
+            "score": 3.735930919647217,
+            "face_detected": 1,
+            "compared_user": "user5",
+            "source_user": "user2"
+        },
+        {
+            "candidate_image_name": "user2_02.jpg",
+            "comparing_with_image_name": "user5_03.jpg",
+            "score": 3.712395668029785,
+            "face_detected": 1,
+            "compared_user": "user5",
+            "source_user": "user2"
+        },
+        {
+            "candidate_image_name": "user2_03.jpg",
+            "comparing_with_image_name": "user3_04.jpg",
+            "score": 3.5669023990631104,
+            "face_detected": 1,
+            "compared_user": "user3",
+            "source_user": "user2"
+        },
+        {
+            "candidate_image_name": "user2_02.jpg",
+            "comparing_with_image_name": "user3_01.jpg",
+            "score": 3.424943685531616,
+            "face_detected": 1,
+            "compared_user": "user3",
+            "source_user": "user2"
+        },
+        {
+            "candidate_image_name": "user1_01.jpg",
+            "comparing_with_image_name": "user5_01.jpg",
+            "score": 3.2820303440093994,
+            "face_detected": 1,
+            "compared_user": "user5",
+            "source_user": "user1"
+        },
+        {
+            "candidate_image_name": "user2_02.jpg",
+            "comparing_with_image_name": "user4_03.jpg",
+            "score": 3.128634452819824,
+            "face_detected": 1,
+            "compared_user": "user4",
+            "source_user": "user2"
+        },
+        {
+            "candidate_image_name": "user2_02.jpg",
+            "comparing_with_image_name": "user4_01.jpg",
+            "score": 3.036330461502075,
+            "face_detected": 1,
+            "compared_user": "user4",
+            "source_user": "user2"
+        },
+        {
+            "candidate_image_name": "user4_01.jpg",
+            "comparing_with_image_name": "user5_02.jpg",
+            "score": 2.886483907699585,
+            "face_detected": 1,
+            "compared_user": "user5",
+            "source_user": "user4"
+        },
+        {
+            "candidate_image_name": "user1_03.jpg",
+            "comparing_with_image_name": "user2_04.jpg",
+            "score": 2.8322086334228516,
+            "face_detected": 1,
+            "compared_user": "user2",
+            "source_user": "user1"
+        },
+        {
+            "candidate_image_name": "user2_04.jpg",
+            "comparing_with_image_name": "user4_03.jpg",
+            "score": 2.7702298164367676,
+            "face_detected": 1,
+            "compared_user": "user4",
+            "source_user": "user2"
+        },
+        {
+            "candidate_image_name": "user3_02.jpg",
+            "comparing_with_image_name": "user5_03.jpg",
+            "score": 2.73698091506958,
+            "face_detected": 1,
+            "compared_user": "user5",
+            "source_user": "user3"
+        },
+        {
+            "candidate_image_name": "user1_01.jpg",
+            "comparing_with_image_name": "user4_04.jpg",
+            "score": 2.6317577362060547,
+            "face_detected": 1,
+            "compared_user": "user4",
+            "source_user": "user1"
+        },
+        {
+            "candidate_image_name": "user4_01.jpg",
+            "comparing_with_image_name": "user5_03.jpg",
+            "score": 2.631751298904419,
+            "face_detected": 1,
+            "compared_user": "user5",
+            "source_user": "user4"
+        },
+        {
+            "candidate_image_name": "user3_01.jpg",
+            "comparing_with_image_name": "user5_03.jpg",
+            "score": 2.55206036567688,
+            "face_detected": 1,
+            "compared_user": "user5",
+            "source_user": "user3"
+        },
+        {
+            "candidate_image_name": "user1_03.jpg",
+            "comparing_with_image_name": "user4_03.jpg",
+            "score": 2.4568583965301514,
+            "face_detected": 1,
+            "compared_user": "user4",
+            "source_user": "user1"
+        },
+        {
+            "candidate_image_name": "user1_03.jpg",
+            "comparing_with_image_name": "user4_02.jpg",
+            "score": 2.431795120239258,
+            "face_detected": 1,
+            "compared_user": "user4",
+            "source_user": "user1"
+        },
+        {
+            "candidate_image_name": "user3_01.jpg",
+            "comparing_with_image_name": "user5_02.jpg",
+            "score": 2.401756763458252,
+            "face_detected": 1,
+            "compared_user": "user5",
+            "source_user": "user3"
+        },
+        {
+            "candidate_image_name": "user1_04.jpg",
+            "comparing_with_image_name": "user2_02.jpg",
+            "score": 2.1035993099212646,
+            "face_detected": 1,
+            "compared_user": "user2",
+            "source_user": "user1"
+        },
+        {
+            "candidate_image_name": "user3_02.jpg",
+            "comparing_with_image_name": "user5_04.jpg",
+            "score": 2.045199394226074,
+            "face_detected": 1,
+            "compared_user": "user5",
+            "source_user": "user3"
+        },
+        {
+            "candidate_image_name": "user2_04.jpg",
+            "comparing_with_image_name": "user3_04.jpg",
+            "score": 2.0328218936920166,
+            "face_detected": 1,
+            "compared_user": "user3",
+            "source_user": "user2"
+        },
+        {
+            "candidate_image_name": "user1_04.jpg",
+            "comparing_with_image_name": "user4_03.jpg",
+            "score": 2.020681619644165,
+            "face_detected": 1,
+            "compared_user": "user4",
+            "source_user": "user1"
+        },
+        {
+            "candidate_image_name": "user1_02.jpg",
+            "comparing_with_image_name": "user2_03.jpg",
+            "score": 2.0120062828063965,
+            "face_detected": 1,
+            "compared_user": "user2",
+            "source_user": "user1"
+        },
+        {
+            "candidate_image_name": "user1_03.jpg",
+            "comparing_with_image_name": "user2_03.jpg",
+            "score": 1.9766168594360352,
+            "face_detected": 1,
+            "compared_user": "user2",
+            "source_user": "user1"
+        },
+        {
+            "candidate_image_name": "user1_03.jpg",
+            "comparing_with_image_name": "user3_02.jpg",
+            "score": 1.6391905546188354,
+            "face_detected": 1,
+            "compared_user": "user3",
+            "source_user": "user1"
+        },
+        {
+            "candidate_image_name": "user2_04.jpg",
+            "comparing_with_image_name": "user3_03.jpg",
+            "score": 1.4382222890853882,
+            "face_detected": 1,
+            "compared_user": "user3",
+            "source_user": "user2"
+        },
+        {
+            "candidate_image_name": "user3_04.jpg",
+            "comparing_with_image_name": "user5_01.jpg",
+            "score": 1.0045477151870728,
+            "face_detected": 1,
+            "compared_user": "user5",
+            "source_user": "user3"
+        },
+        {
+            "candidate_image_name": "user2_01.jpg",
+            "comparing_with_image_name": "user3_03.jpg",
+            "score": 0.8944167494773865,
+            "face_detected": 1,
+            "compared_user": "user3",
+            "source_user": "user2"
+        },
+        {
+            "candidate_image_name": "user1_02.jpg",
+            "comparing_with_image_name": "user4_04.jpg",
+            "score": 0.8314041495323181,
+            "face_detected": 1,
+            "compared_user": "user4",
+            "source_user": "user1"
+        },
+        {
+            "candidate_image_name": "user4_01.jpg",
+            "comparing_with_image_name": "user5_01.jpg",
+            "score": 0.7543871998786926,
+            "face_detected": 1,
+            "compared_user": "user5",
+            "source_user": "user4"
+        },
+        {
+            "candidate_image_name": "user1_02.jpg",
+            "comparing_with_image_name": "user3_02.jpg",
+            "score": 0.7505255937576294,
+            "face_detected": 1,
+            "compared_user": "user3",
+            "source_user": "user1"
+        },
+        {
+            "candidate_image_name": "user2_01.jpg",
+            "comparing_with_image_name": "user3_04.jpg",
+            "score": 0.6412423253059387,
+            "face_detected": 1,
+            "compared_user": "user3",
+            "source_user": "user2"
+        },
+        {
+            "candidate_image_name": "user2_03.jpg",
+            "comparing_with_image_name": "user4_03.jpg",
+            "score": 0.5917471647262573,
+            "face_detected": 1,
+            "compared_user": "user4",
+            "source_user": "user2"
+        },
+        {
+            "candidate_image_name": "user2_03.jpg",
+            "comparing_with_image_name": "user5_01.jpg",
+            "score": 0.3546144366264343,
+            "face_detected": 1,
+            "compared_user": "user5",
+            "source_user": "user2"
+        },
+        {
+            "candidate_image_name": "user2_01.jpg",
+            "comparing_with_image_name": "user4_01.jpg",
+            "score": 0.0724174752831459,
+            "face_detected": 1,
+            "compared_user": "user4",
+            "source_user": "user2"
+        },
+        {
+            "candidate_image_name": "user1_01.jpg",
+            "comparing_with_image_name": "user4_02.jpg",
+            "score": 0,
+            "face_detected": 1,
+            "compared_user": "user4",
+            "source_user": "user1"
+        },
+        {
+            "candidate_image_name": "user1_02.jpg",
+            "comparing_with_image_name": "user2_02.jpg",
+            "score": 0,
+            "face_detected": 1,
+            "compared_user": "user2",
+            "source_user": "user1"
+        },
+        {
+            "candidate_image_name": "user1_03.jpg",
+            "comparing_with_image_name": "user2_02.jpg",
+            "score": 0,
+            "face_detected": 1,
+            "compared_user": "user2",
+            "source_user": "user1"
+        },
+        {
+            "candidate_image_name": "user1_03.jpg",
+            "comparing_with_image_name": "user4_04.jpg",
+            "score": 0,
+            "face_detected": 1,
+            "compared_user": "user4",
+            "source_user": "user1"
+        },
+        {
+            "candidate_image_name": "user1_04.jpg",
+            "comparing_with_image_name": "user4_02.jpg",
+            "score": 0,
+            "face_detected": 1,
+            "compared_user": "user4",
+            "source_user": "user1"
+        },
+        {
+            "candidate_image_name": "user1_04.jpg",
+            "comparing_with_image_name": "user4_04.jpg",
+            "score": 0,
+            "face_detected": 1,
+            "compared_user": "user4",
+            "source_user": "user1"
+        },
+        {
+            "candidate_image_name": "user2_01.jpg",
+            "comparing_with_image_name": "user3_01.jpg",
+            "score": 0,
+            "face_detected": 1,
+            "compared_user": "user3",
+            "source_user": "user2"
+        },
+        {
+            "candidate_image_name": "user2_01.jpg",
+            "comparing_with_image_name": "user4_03.jpg",
+            "score": 0,
+            "face_detected": 1,
+            "compared_user": "user4",
+            "source_user": "user2"
+        },
+        {
+            "candidate_image_name": "user2_01.jpg",
+            "comparing_with_image_name": "user5_01.jpg",
+            "score": 0,
+            "face_detected": 1,
+            "compared_user": "user5",
+            "source_user": "user2"
+        },
+        {
+            "candidate_image_name": "user2_01.jpg",
+            "comparing_with_image_name": "user5_02.jpg",
+            "score": 0,
+            "face_detected": 1,
+            "compared_user": "user5",
+            "source_user": "user2"
+        },
+        {
+            "candidate_image_name": "user2_01.jpg",
+            "comparing_with_image_name": "user5_03.jpg",
+            "score": 0,
+            "face_detected": 1,
+            "compared_user": "user5",
+            "source_user": "user2"
+        },
+        {
+            "candidate_image_name": "user2_01.jpg",
+            "comparing_with_image_name": "user5_04.jpg",
+            "score": 0,
+            "face_detected": 1,
+            "compared_user": "user5",
+            "source_user": "user2"
+        },
+        {
+            "candidate_image_name": "user2_02.jpg",
+            "comparing_with_image_name": "user5_01.jpg",
+            "score": 0,
+            "face_detected": 1,
+            "compared_user": "user5",
+            "source_user": "user2"
+        },
+        {
+            "candidate_image_name": "user2_02.jpg",
+            "comparing_with_image_name": "user5_02.jpg",
+            "score": 0,
+            "face_detected": 1,
+            "compared_user": "user5",
+            "source_user": "user2"
+        },
+        {
+            "candidate_image_name": "user2_02.jpg",
+            "comparing_with_image_name": "user5_04.jpg",
+            "score": 0,
+            "face_detected": 1,
+            "compared_user": "user5",
+            "source_user": "user2"
+        },
+        {
+            "candidate_image_name": "user2_03.jpg",
+            "comparing_with_image_name": "user3_01.jpg",
+            "score": 0,
+            "face_detected": 1,
+            "compared_user": "user3",
+            "source_user": "user2"
+        },
+        {
+            "candidate_image_name": "user2_03.jpg",
+            "comparing_with_image_name": "user5_04.jpg",
+            "score": 0,
+            "face_detected": 1,
+            "compared_user": "user5",
+            "source_user": "user2"
+        },
+        {
+            "candidate_image_name": "user2_04.jpg",
+            "comparing_with_image_name": "user3_01.jpg",
+            "score": 0,
+            "face_detected": 1,
+            "compared_user": "user3",
+            "source_user": "user2"
+        },
+        {
+            "candidate_image_name": "user2_04.jpg",
+            "comparing_with_image_name": "user5_01.jpg",
+            "score": 0,
+            "face_detected": 1,
+            "compared_user": "user5",
+            "source_user": "user2"
+        },
+        {
+            "candidate_image_name": "user2_04.jpg",
+            "comparing_with_image_name": "user5_02.jpg",
+            "score": 0,
+            "face_detected": 1,
+            "compared_user": "user5",
+            "source_user": "user2"
+        },
+        {
+            "candidate_image_name": "user2_04.jpg",
+            "comparing_with_image_name": "user5_03.jpg",
+            "score": 0,
+            "face_detected": 1,
+            "compared_user": "user5",
+            "source_user": "user2"
+        },
+        {
+            "candidate_image_name": "user2_04.jpg",
+            "comparing_with_image_name": "user5_04.jpg",
+            "score": 0,
+            "face_detected": 1,
+            "compared_user": "user5",
+            "source_user": "user2"
+        },
+        {
+            "candidate_image_name": "user3_01.jpg",
+            "comparing_with_image_name": "user4_02.jpg",
+            "score": 0,
+            "face_detected": 1,
+            "compared_user": "user4",
+            "source_user": "user3"
+        },
+        {
+            "candidate_image_name": "user3_01.jpg",
+            "comparing_with_image_name": "user5_01.jpg",
+            "score": 0,
+            "face_detected": 1,
+            "compared_user": "user5",
+            "source_user": "user3"
+        },
+        {
+            "candidate_image_name": "user3_02.jpg",
+            "comparing_with_image_name": "user5_01.jpg",
+            "score": 0,
+            "face_detected": 1,
+            "compared_user": "user5",
+            "source_user": "user3"
+        },
+        {
+            "candidate_image_name": "user3_02.jpg",
+            "comparing_with_image_name": "user5_02.jpg",
+            "score": 0,
+            "face_detected": 1,
+            "compared_user": "user5",
+            "source_user": "user3"
+        },
+        {
+            "candidate_image_name": "user4_01.jpg",
+            "comparing_with_image_name": "user5_04.jpg",
+            "score": 0,
+            "face_detected": 1,
+            "compared_user": "user5",
+            "source_user": "user4"
+        }
+    ],
+    "statistics": {
+        "highest_score": 20.567256927490234,
+        "lowest_score": 0,
+        "total_comparisons": 192,
+        "scores_above_10": 57,
+        "scores_above_15": 17,
+        "scores_above_20": 1
+    }
+}
