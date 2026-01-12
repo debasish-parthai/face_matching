@@ -8,3 +8,4 @@ pydantic
 insightface
 torch
 torchvision
+pymongo
