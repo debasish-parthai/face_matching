@@ -1,0 +1,791 @@
+{
+  "candidate_image_name": "user10_01.jpg",
+  "reference_results": [
+    {
+      "reference_index": 1,
+      "reference_path": "C:\\Users\\BAPS\\AppData\\Local\\Temp\\tmpbj3tplop\\reference_0.jpg",
+      "faces_detected": 1,
+      "max_score": 7.865137100219727,
+      "all_scores": [
+        7.865137100219727
+      ],
+      "face_attributes": [
+        {
+          "age": 36,
+          "gender": 1,
+          "score": 7.865137100219727
+        }
+      ],
+      "comparing_with": "user11_01.jpg",
+      "compared_user": "user11"
+    },
+    {
+      "reference_index": 2,
+      "reference_path": "C:\\Users\\BAPS\\AppData\\Local\\Temp\\tmpbj3tplop\\reference_1.jpg",
+      "faces_detected": 1,
+      "max_score": 7.483417510986328,
+      "all_scores": [
+        7.483417510986328
+      ],
+      "face_attributes": [
+        {
+          "age": 30,
+          "gender": 1,
+          "score": 7.483417510986328
+        }
+      ],
+      "comparing_with": "user11_02.jpg",
+      "compared_user": "user11"
+    },
+    {
+      "reference_index": 3,
+      "reference_path": "C:\\Users\\BAPS\\AppData\\Local\\Temp\\tmpbj3tplop\\reference_2.jpg",
+      "faces_detected": 1,
+      "max_score": 8.553034782409668,
+      "all_scores": [
+        8.553034782409668
+      ],
+      "face_attributes": [
+        {
+          "age": 37,
+          "gender": 1,
+          "score": 8.553034782409668
+        }
+      ],
+      "comparing_with": "user11_03.jpg",
+      "compared_user": "user11"
+    },
+    {
+      "reference_index": 4,
+      "reference_path": "C:\\Users\\BAPS\\AppData\\Local\\Temp\\tmpbj3tplop\\reference_3.jpg",
+      "faces_detected": 1,
+      "max_score": 12.011043548583984,
+      "all_scores": [
+        12.011043548583984
+      ],
+      "face_attributes": [
+        {
+          "age": 38,
+          "gender": 1,
+          "score": 12.011043548583984
+        }
+      ],
+      "comparing_with": "user11_04.jpg",
+      "compared_user": "user11"
+    },
+    {
+      "reference_index": 5,
+      "reference_path": "C:\\Users\\BAPS\\AppData\\Local\\Temp\\tmpbj3tplop\\reference_4.jpg",
+      "faces_detected": 1,
+      "max_score": 0,
+      "all_scores": [
+        0
+      ],
+      "face_attributes": [
+        {
+          "age": 38,
+          "gender": 1,
+          "score": 0
+        }
+      ],
+      "comparing_with": "user12_01.jpg",
+      "compared_user": "user12"
+    },
+    {
+      "reference_index": 1,
+      "reference_path": "C:\\Users\\BAPS\\AppData\\Local\\Temp\\tmp5pqwdcn5\\reference_0.jpg",
+      "faces_detected": 1,
+      "max_score": 0,
+      "all_scores": [
+        0
+      ],
+      "face_attributes": [
+        {
+          "age": 33,
+          "gender": 1,
+          "score": 0
+        }
+      ],
+      "comparing_with": "user12_02.jpg",
+      "compared_user": "user12"
+    },
+    {
+      "reference_index": 2,
+      "reference_path": "C:\\Users\\BAPS\\AppData\\Local\\Temp\\tmp5pqwdcn5\\reference_1.jpg",
+      "faces_detected": 1,
+      "max_score": 0,
+      "all_scores": [
+        0
+      ],
+      "face_attributes": [
+        {
+          "age": 41,
+          "gender": 1,
+          "score": 0
+        }
+      ],
+      "comparing_with": "user12_03.jpg",
+      "compared_user": "user12"
+    },
+    {
+      "reference_index": 3,
+      "reference_path": "C:\\Users\\BAPS\\AppData\\Local\\Temp\\tmp5pqwdcn5\\reference_2.jpg",
+      "faces_detected": 1,
+      "max_score": 0,
+      "all_scores": [
+        0
+      ],
+      "face_attributes": [
+        {
+          "age": 33,
+          "gender": 1,
+          "score": 0
+        }
+      ],
+      "comparing_with": "user12_04.jpg",
+      "compared_user": "user12"
+    },
+    {
+      "reference_index": 4,
+      "reference_path": "C:\\Users\\BAPS\\AppData\\Local\\Temp\\tmp5pqwdcn5\\reference_3.jpg",
+      "faces_detected": 1,
+      "max_score": 15.628097534179688,
+      "all_scores": [
+        15.628097534179688
+      ],
+      "face_attributes": [
+        {
+          "age": 35,
+          "gender": 1,
+          "score": 15.628097534179688
+        }
+      ],
+      "comparing_with": "user13_01.jpg",
+      "compared_user": "user13"
+    },
+    {
+      "reference_index": 5,
+      "reference_path": "C:\\Users\\BAPS\\AppData\\Local\\Temp\\tmp5pqwdcn5\\reference_4.jpg",
+      "faces_detected": 1,
+      "max_score": 5.9864888191223145,
+      "all_scores": [
+        5.9864888191223145
+      ],
+      "face_attributes": [
+        {
+          "age": 35,
+          "gender": 1,
+          "score": 5.9864888191223145
+        }
+      ],
+      "comparing_with": "user13_02.jpg",
+      "compared_user": "user13"
+    },
+    {
+      "reference_index": 1,
+      "reference_path": "C:\\Users\\BAPS\\AppData\\Local\\Temp\\tmphjacbri3\\reference_0.jpg",
+      "faces_detected": 1,
+      "max_score": 8.956254959106445,
+      "all_scores": [
+        8.956254959106445
+      ],
+      "face_attributes": [
+        {
+          "age": 42,
+          "gender": 1,
+          "score": 8.956254959106445
+        }
+      ],
+      "comparing_with": "user13_03.jpg",
+      "compared_user": "user13"
+    },
+    {
+      "reference_index": 2,
+      "reference_path": "C:\\Users\\BAPS\\AppData\\Local\\Temp\\tmphjacbri3\\reference_1.jpg",
+      "faces_detected": 1,
+      "max_score": 14.005173683166504,
+      "all_scores": [
+        14.005173683166504
+      ],
+      "face_attributes": [
+        {
+          "age": 36,
+          "gender": 1,
+          "score": 14.005173683166504
+        }
+      ],
+      "comparing_with": "user13_04.jpg",
+      "compared_user": "user13"
+    },
+    {
+      "reference_index": 3,
+      "reference_path": "C:\\Users\\BAPS\\AppData\\Local\\Temp\\tmphjacbri3\\reference_2.jpg",
+      "faces_detected": 1,
+      "max_score": 25.022878646850586,
+      "all_scores": [
+        25.022878646850586
+      ],
+      "face_attributes": [
+        {
+          "age": 36,
+          "gender": 1,
+          "score": 25.022878646850586
+        }
+      ],
+      "comparing_with": "user14_01.jpg",
+      "compared_user": "user14"
+    },
+    {
+      "reference_index": 4,
+      "reference_path": "C:\\Users\\BAPS\\AppData\\Local\\Temp\\tmphjacbri3\\reference_3.jpg",
+      "faces_detected": 1,
+      "max_score": 20.77253532409668,
+      "all_scores": [
+        20.77253532409668
+      ],
+      "face_attributes": [
+        {
+          "age": 31,
+          "gender": 1,
+          "score": 20.77253532409668
+        }
+      ],
+      "comparing_with": "user14_02.jpg",
+      "compared_user": "user14"
+    },
+    {
+      "reference_index": 5,
+      "reference_path": "C:\\Users\\BAPS\\AppData\\Local\\Temp\\tmphjacbri3\\reference_4.jpg",
+      "faces_detected": 1,
+      "max_score": 19.68314552307129,
+      "all_scores": [
+        19.68314552307129
+      ],
+      "face_attributes": [
+        {
+          "age": 30,
+          "gender": 1,
+          "score": 19.68314552307129
+        }
+      ],
+      "comparing_with": "user14_03.jpg",
+      "compared_user": "user14"
+    },
+    {
+      "reference_index": 1,
+      "reference_path": "C:\\Users\\BAPS\\AppData\\Local\\Temp\\tmpme5pw_qz\\reference_0.jpg",
+      "faces_detected": 2,
+      "max_score": 16.262584686279297,
+      "all_scores": [
+        16.262584686279297,
+        0
+      ],
+      "face_attributes": [
+        {
+          "age": 37,
+          "gender": 1,
+          "score": 16.262584686279297
+        },
+        {
+          "age": 33,
+          "gender": 1,
+          "score": 0
+        }
+      ],
+      "comparing_with": "user14_04.jpg",
+      "compared_user": "user14"
+    },
+    {
+      "reference_index": 2,
+      "reference_path": "C:\\Users\\BAPS\\AppData\\Local\\Temp\\tmpme5pw_qz\\reference_1.jpg",
+      "faces_detected": 1,
+      "max_score": 21.627912521362305,
+      "all_scores": [
+        21.627912521362305
+      ],
+      "face_attributes": [
+        {
+          "age": 32,
+          "gender": 1,
+          "score": 21.627912521362305
+        }
+      ],
+      "comparing_with": "user14_05.jpg",
+      "compared_user": "user14"
+    },
+    {
+      "reference_index": 3,
+      "reference_path": "C:\\Users\\BAPS\\AppData\\Local\\Temp\\tmpme5pw_qz\\reference_2.jpg",
+      "faces_detected": 1,
+      "max_score": 12.362618446350098,
+      "all_scores": [
+        12.362618446350098
+      ],
+      "face_attributes": [
+        {
+          "age": 37,
+          "gender": 1,
+          "score": 12.362618446350098
+        }
+      ],
+      "comparing_with": "user14_06.jpg",
+      "compared_user": "user14"
+    },
+    {
+      "reference_index": 4,
+      "reference_path": "C:\\Users\\BAPS\\AppData\\Local\\Temp\\tmpme5pw_qz\\reference_3.jpg",
+      "faces_detected": 1,
+      "max_score": 11.902644157409668,
+      "all_scores": [
+        11.902644157409668
+      ],
+      "face_attributes": [
+        {
+          "age": 38,
+          "gender": 1,
+          "score": 11.902644157409668
+        }
+      ],
+      "comparing_with": "user15_01.jpg",
+      "compared_user": "user15"
+    },
+    {
+      "reference_index": 5,
+      "reference_path": "C:\\Users\\BAPS\\AppData\\Local\\Temp\\tmpme5pw_qz\\reference_4.jpg",
+      "faces_detected": 1,
+      "max_score": 8.154487609863281,
+      "all_scores": [
+        8.154487609863281
+      ],
+      "face_attributes": [
+        {
+          "age": 41,
+          "gender": 1,
+          "score": 8.154487609863281
+        }
+      ],
+      "comparing_with": "user15_02.jpg",
+      "compared_user": "user15"
+    },
+    {
+      "reference_index": 1,
+      "reference_path": "C:\\Users\\BAPS\\AppData\\Local\\Temp\\tmpcczpkwul\\reference_0.jpg",
+      "faces_detected": 1,
+      "max_score": 7.316521644592285,
+      "all_scores": [
+        7.316521644592285
+      ],
+      "face_attributes": [
+        {
+          "age": 42,
+          "gender": 1,
+          "score": 7.316521644592285
+        }
+      ],
+      "comparing_with": "user15_03.jpg",
+      "compared_user": "user15"
+    },
+    {
+      "reference_index": 2,
+      "reference_path": "C:\\Users\\BAPS\\AppData\\Local\\Temp\\tmpcczpkwul\\reference_1.jpg",
+      "faces_detected": 1,
+      "max_score": 5.07216215133667,
+      "all_scores": [
+        5.07216215133667
+      ],
+      "face_attributes": [
+        {
+          "age": 44,
+          "gender": 1,
+          "score": 5.07216215133667
+        }
+      ],
+      "comparing_with": "user15_04.jpg",
+      "compared_user": "user15"
+    },
+    {
+      "reference_index": 3,
+      "reference_path": "C:\\Users\\BAPS\\AppData\\Local\\Temp\\tmpcczpkwul\\reference_2.jpg",
+      "faces_detected": 1,
+      "max_score": 0,
+      "all_scores": [
+        0
+      ],
+      "face_attributes": [
+        {
+          "age": 45,
+          "gender": 1,
+          "score": 0
+        }
+      ],
+      "comparing_with": "user5_01.jpg",
+      "compared_user": "user5"
+    },
+    {
+      "reference_index": 4,
+      "reference_path": "C:\\Users\\BAPS\\AppData\\Local\\Temp\\tmpcczpkwul\\reference_3.jpg",
+      "faces_detected": 1,
+      "max_score": 0,
+      "all_scores": [
+        0
+      ],
+      "face_attributes": [
+        {
+          "age": 42,
+          "gender": 1,
+          "score": 0
+        }
+      ],
+      "comparing_with": "user5_02.jpg",
+      "compared_user": "user5"
+    },
+    {
+      "reference_index": 5,
+      "reference_path": "C:\\Users\\BAPS\\AppData\\Local\\Temp\\tmpcczpkwul\\reference_4.jpg",
+      "faces_detected": 1,
+      "max_score": 0,
+      "all_scores": [
+        0
+      ],
+      "face_attributes": [
+        {
+          "age": 40,
+          "gender": 1,
+          "score": 0
+        }
+      ],
+      "comparing_with": "user5_03.jpg",
+      "compared_user": "user5"
+    },
+    {
+      "reference_index": 1,
+      "reference_path": "C:\\Users\\BAPS\\AppData\\Local\\Temp\\tmpsbyqd3j_\\reference_0.jpg",
+      "faces_detected": 1,
+      "max_score": 0.5468384623527527,
+      "all_scores": [
+        0.5468384623527527
+      ],
+      "face_attributes": [
+        {
+          "age": 35,
+          "gender": 1,
+          "score": 0.5468384623527527
+        }
+      ],
+      "comparing_with": "user5_04.jpg",
+      "compared_user": "user5"
+    },
+    {
+      "reference_index": 2,
+      "reference_path": "C:\\Users\\BAPS\\AppData\\Local\\Temp\\tmpsbyqd3j_\\reference_1.jpg",
+      "faces_detected": 1,
+      "max_score": 11.673608779907227,
+      "all_scores": [
+        11.673608779907227
+      ],
+      "face_attributes": [
+        {
+          "age": 36,
+          "gender": 1,
+          "score": 11.673608779907227
+        }
+      ],
+      "comparing_with": "user6_01.jpg",
+      "compared_user": "user6"
+    },
+    {
+      "reference_index": 3,
+      "reference_path": "C:\\Users\\BAPS\\AppData\\Local\\Temp\\tmpsbyqd3j_\\reference_2.jpg",
+      "faces_detected": 1,
+      "max_score": 4.118635654449463,
+      "all_scores": [
+        4.118635654449463
+      ],
+      "face_attributes": [
+        {
+          "age": 35,
+          "gender": 1,
+          "score": 4.118635654449463
+        }
+      ],
+      "comparing_with": "user6_02.jpg",
+      "compared_user": "user6"
+    },
+    {
+      "reference_index": 4,
+      "reference_path": "C:\\Users\\BAPS\\AppData\\Local\\Temp\\tmpsbyqd3j_\\reference_3.jpg",
+      "faces_detected": 1,
+      "max_score": 8.292618751525879,
+      "all_scores": [
+        8.292618751525879
+      ],
+      "face_attributes": [
+        {
+          "age": 34,
+          "gender": 1,
+          "score": 8.292618751525879
+        }
+      ],
+      "comparing_with": "user6_03.jpg",
+      "compared_user": "user6"
+    },
+    {
+      "reference_index": 5,
+      "reference_path": "C:\\Users\\BAPS\\AppData\\Local\\Temp\\tmpsbyqd3j_\\reference_4.jpg",
+      "faces_detected": 1,
+      "max_score": 8.698949813842773,
+      "all_scores": [
+        8.698949813842773
+      ],
+      "face_attributes": [
+        {
+          "age": 47,
+          "gender": 1,
+          "score": 8.698949813842773
+        }
+      ],
+      "comparing_with": "user6_04.jpg",
+      "compared_user": "user6"
+    },
+    {
+      "reference_index": 1,
+      "reference_path": "C:\\Users\\BAPS\\AppData\\Local\\Temp\\tmpxqme342z\\reference_0.jpg",
+      "faces_detected": 1,
+      "max_score": 17.445302963256836,
+      "all_scores": [
+        17.445302963256836
+      ],
+      "face_attributes": [
+        {
+          "age": 44,
+          "gender": 1,
+          "score": 17.445302963256836
+        }
+      ],
+      "comparing_with": "user7_01.jpg",
+      "compared_user": "user7"
+    },
+    {
+      "reference_index": 2,
+      "reference_path": "C:\\Users\\BAPS\\AppData\\Local\\Temp\\tmpxqme342z\\reference_1.jpg",
+      "faces_detected": 1,
+      "max_score": 11.895618438720703,
+      "all_scores": [
+        11.895618438720703
+      ],
+      "face_attributes": [
+        {
+          "age": 53,
+          "gender": 1,
+          "score": 11.895618438720703
+        }
+      ],
+      "comparing_with": "user7_02.jpg",
+      "compared_user": "user7"
+    },
+    {
+      "reference_index": 3,
+      "reference_path": "C:\\Users\\BAPS\\AppData\\Local\\Temp\\tmpxqme342z\\reference_2.jpg",
+      "faces_detected": 1,
+      "max_score": 21.817955017089844,
+      "all_scores": [
+        21.817955017089844
+      ],
+      "face_attributes": [
+        {
+          "age": 55,
+          "gender": 1,
+          "score": 21.817955017089844
+        }
+      ],
+      "comparing_with": "user7_03.jpg",
+      "compared_user": "user7"
+    },
+    {
+      "reference_index": 4,
+      "reference_path": "C:\\Users\\BAPS\\AppData\\Local\\Temp\\tmpxqme342z\\reference_3.jpg",
+      "faces_detected": 1,
+      "max_score": 16.89329719543457,
+      "all_scores": [
+        16.89329719543457
+      ],
+      "face_attributes": [
+        {
+          "age": 55,
+          "gender": 1,
+          "score": 16.89329719543457
+        }
+      ],
+      "comparing_with": "user7_04.jpg",
+      "compared_user": "user7"
+    },
+    {
+      "reference_index": 5,
+      "reference_path": "C:\\Users\\BAPS\\AppData\\Local\\Temp\\tmpxqme342z\\reference_4.jpg",
+      "faces_detected": 1,
+      "max_score": 28.570743560791016,
+      "all_scores": [
+        28.570743560791016
+      ],
+      "face_attributes": [
+        {
+          "age": 47,
+          "gender": 1,
+          "score": 28.570743560791016
+        }
+      ],
+      "comparing_with": "user7_05.jpg",
+      "compared_user": "user7"
+    },
+    {
+      "reference_index": 1,
+      "reference_path": "C:\\Users\\BAPS\\AppData\\Local\\Temp\\tmpaqr2u6up\\reference_0.jpg",
+      "faces_detected": 2,
+      "max_score": 7.317420959472656,
+      "all_scores": [
+        7.317420959472656,
+        2.6651406288146973
+      ],
+      "face_attributes": [
+        {
+          "age": 30,
+          "gender": 1,
+          "score": 7.317420959472656
+        },
+        {
+          "age": 26,
+          "gender": 0,
+          "score": 2.6651406288146973
+        }
+      ],
+      "comparing_with": "user8_01.jpg",
+      "compared_user": "user8"
+    },
+    {
+      "reference_index": 2,
+      "reference_path": "C:\\Users\\BAPS\\AppData\\Local\\Temp\\tmpaqr2u6up\\reference_1.jpg",
+      "faces_detected": 1,
+      "max_score": 1.5520106554031372,
+      "all_scores": [
+        1.5520106554031372
+      ],
+      "face_attributes": [
+        {
+          "age": 28,
+          "gender": 1,
+          "score": 1.5520106554031372
+        }
+      ],
+      "comparing_with": "user8_02.jpg",
+      "compared_user": "user8"
+    },
+    {
+      "reference_index": 3,
+      "reference_path": "C:\\Users\\BAPS\\AppData\\Local\\Temp\\tmpaqr2u6up\\reference_2.jpg",
+      "faces_detected": 1,
+      "max_score": 6.000613212585449,
+      "all_scores": [
+        6.000613212585449
+      ],
+      "face_attributes": [
+        {
+          "age": 32,
+          "gender": 1,
+          "score": 6.000613212585449
+        }
+      ],
+      "comparing_with": "user8_03.jpg",
+      "compared_user": "user8"
+    },
+    {
+      "reference_index": 4,
+      "reference_path": "C:\\Users\\BAPS\\AppData\\Local\\Temp\\tmpaqr2u6up\\reference_3.jpg",
+      "faces_detected": 1,
+      "max_score": 0,
+      "all_scores": [
+        0
+      ],
+      "face_attributes": [
+        {
+          "age": 29,
+          "gender": 1,
+          "score": 0
+        }
+      ],
+      "comparing_with": "user8_04.jpg",
+      "compared_user": "user8"
+    },
+    {
+      "reference_index": 5,
+      "reference_path": "C:\\Users\\BAPS\\AppData\\Local\\Temp\\tmpaqr2u6up\\reference_4.jpg",
+      "faces_detected": 1,
+      "max_score": 6.030735492706299,
+      "all_scores": [
+        6.030735492706299
+      ],
+      "face_attributes": [
+        {
+          "age": 39,
+          "gender": 1,
+          "score": 6.030735492706299
+        }
+      ],
+      "comparing_with": "user9_01.jpg",
+      "compared_user": "user9"
+    },
+    {
+      "reference_index": 1,
+      "reference_path": "C:\\Users\\BAPS\\AppData\\Local\\Temp\\tmpxshmf9xz\\reference_0.jpg",
+      "faces_detected": 1,
+      "max_score": 2.4554460048675537,
+      "all_scores": [
+        2.4554460048675537
+      ],
+      "face_attributes": [
+        {
+          "age": 50,
+          "gender": 1,
+          "score": 2.4554460048675537
+        }
+      ],
+      "comparing_with": "user9_02.jpg",
+      "compared_user": "user9"
+    },
+    {
+      "reference_index": 2,
+      "reference_path": "C:\\Users\\BAPS\\AppData\\Local\\Temp\\tmpxshmf9xz\\reference_1.jpg",
+      "faces_detected": 1,
+      "max_score": 0,
+      "all_scores": [
+        0
+      ],
+      "face_attributes": [
+        {
+          "age": 39,
+          "gender": 1,
+          "score": 0
+        }
+      ],
+      "comparing_with": "user9_03.jpg",
+      "compared_user": "user9"
+    },
+    {
+      "reference_index": 3,
+      "reference_path": "C:\\Users\\BAPS\\AppData\\Local\\Temp\\tmpxshmf9xz\\reference_2.jpg",
+      "faces_detected": 1,
+      "max_score": 1.588558554649353,
+      "all_scores": [
+        1.588558554649353
+      ],
+      "face_attributes": [
+        {
+          "age": 48,
+          "gender": 1,
+          "score": 1.588558554649353
+        }
+      ],
+      "comparing_with": "user9_04.jpg",
+      "compared_user": "user9"
+    }
+  ]
+}

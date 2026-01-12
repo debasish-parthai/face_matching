@@ -129,25 +129,11 @@ class FalseNegativeTester:
             logger.error(f"Could not find {current_user_folder} in user folders list")
             return
 
-        # Collect all reference images from subsequent users up to user5
+        # Collect all reference images from subsequent users
         all_reference_images = []
         reference_user_mapping = []  # To track which user each reference image belongs to
 
-        # Find the index of user5 to limit comparisons
-        user5_index = None
-        for i, folder in enumerate(all_user_folders):
-            if os.path.basename(folder) == 'user5':
-                user5_index = i
-                break
-
-        # Determine the end index for comparisons (up to user5)
-        if user5_index is not None:
-            end_index = min(len(all_user_folders), user5_index + 1)
-        else:
-            # If user5 not found, use all subsequent users (fallback)
-            end_index = len(all_user_folders)
-
-        for other_user_folder in all_user_folders[current_index + 1:end_index]:
+        for other_user_folder in all_user_folders[current_index + 1:]:
             other_user_name = os.path.basename(other_user_folder)
             logger.info(f"Collecting images from {other_user_name}")
 
@@ -165,12 +151,12 @@ class FalseNegativeTester:
             logger.warning(f"No reference images found for {current_user_name}, skipping")
             return
 
-        logger.info(f"Found {len(all_reference_images)} total reference images from subsequent users (up to user5)")
+        logger.info(f"Found {len(all_reference_images)} total reference images from subsequent users")
 
         # Compare each image from current user with ALL reference images from subsequent users in batches of 5
         for i, candidate_path in enumerate(current_user_images):
             candidate_filename = os.path.basename(candidate_path)
-            logger.info(f"Comparing {candidate_filename} with {len(all_reference_images)} reference images from subsequent users (up to user5)")
+            logger.info(f"Comparing {candidate_filename} with {len(all_reference_images)} reference images from subsequent users")
 
             # Process reference images in batches of 5
             consolidated_results = {
@@ -213,9 +199,9 @@ class FalseNegativeTester:
             logger.error(f"Users folder not found: {users_base_folder}")
             return
 
-        # Get only user1, user2, user3, user4, and user5 folders
+        # Get user5 through user15 folders
         user_folders = []
-        target_users = ['user1', 'user2', 'user3', 'user4', 'user5']
+        target_users = ['user5', 'user6', 'user7', 'user8', 'user9', 'user10', 'user11', 'user12', 'user13', 'user14', 'user15']
         for item in os.listdir(users_base_folder):
             item_path = os.path.join(users_base_folder, item)
             if os.path.isdir(item_path) and item in target_users:
