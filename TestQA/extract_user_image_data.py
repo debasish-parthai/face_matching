@@ -53,7 +53,7 @@ def extract_user_image_data():
     collection_user_registration = db['user_registration']
 
     # Create Users directory
-    users_dir = os.path.join(os.path.dirname(__file__), "Users")
+    users_dir = os.path.join(os.path.dirname(__file__), "Users_Final")
     os.makedirs(users_dir, exist_ok=True)
 
     # Step 1: Get user_ids from user collection where platform_live=true and gender="Male"
@@ -140,6 +140,12 @@ def extract_user_image_data():
                             new_crop_path = os.path.join(user_folder, f"user{user_idx}_primary.jpg")
                             if os.path.exists(original_crop_path):
                                 shutil.move(original_crop_path, new_crop_path)
+                                
+                                # Save face embedding
+                                embedding_filename = f"user{user_idx}_primary_embedding.npy"
+                                embedding_path = os.path.join(user_folder, embedding_filename)
+                                np.save(embedding_path, faces[0]['embedding'])
+
                                 # Remove original downloaded image after successful face extraction
                                 try:
                                     os.remove(primary_path)
@@ -148,6 +154,7 @@ def extract_user_image_data():
                                 user_metadata["primary_photo"] = {
                                     "original_url": primary_url,
                                     "cropped_path": f"user{user_idx}_primary.jpg",
+                                    "embedding_path": embedding_filename,
                                     "face_detected": True,
                                     "face_info": {
                                         "bbox": faces[0]['bbox'],
@@ -195,6 +202,12 @@ def extract_user_image_data():
                                 new_crop_path = os.path.join(user_folder, f"user{user_idx}_additional_{photo_idx + 1}.jpg")
                                 if os.path.exists(original_crop_path):
                                     shutil.move(original_crop_path, new_crop_path)
+                                    
+                                    # Save face embedding
+                                    embedding_filename = f"user{user_idx}_additional_{photo_idx + 1}_embedding.npy"
+                                    embedding_path = os.path.join(user_folder, embedding_filename)
+                                    np.save(embedding_path, faces[0]['embedding'])
+
                                     # Remove original downloaded image after successful face extraction
                                     try:
                                         os.remove(additional_path)
@@ -203,6 +216,7 @@ def extract_user_image_data():
                                     user_metadata["additional_photos"].append({
                                         "original_url": photo_url,
                                         "cropped_path": f"user{user_idx}_additional_{photo_idx + 1}.jpg",
+                                        "embedding_path": embedding_filename,
                                         "face_detected": True,
                                         "face_info": {
                                             "bbox": faces[0]['bbox'],

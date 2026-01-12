@@ -177,7 +177,46 @@ class ImprovedFaceMatcherInsightFace:
         # InsightFace threshold: >0.3-0.4 = same person
         score = max(0, min(100, similarity * 100))
 
-        return score
+        return float(score)
+
+    def match_embedding_with_references(self,
+                                       candidate_embedding: np.ndarray,
+                                       reference_embeddings: List[np.ndarray],
+                                       match_threshold: float = 40.0) -> Dict[str, any]:
+        """
+        Match a candidate embedding against a list of reference embeddings directly.
+        
+        Args:
+            candidate_embedding: The embedding of the face to match.
+            reference_embeddings: List of reference embeddings to compare against.
+            match_threshold: Minimum score to consider a match.
+            
+        Returns:
+            Dictionary with matching results.
+        """
+        results = {
+            'reference_results': [],
+            'is_match': False,
+            'max_score': 0.0,
+            'avg_match_score': 0.0
+        }
+        
+        scores = []
+        for idx, ref_emb in enumerate(reference_embeddings):
+            score = self.calculate_similarity(candidate_embedding, ref_emb)
+            scores.append(score)
+            results['reference_results'].append({
+                'reference_index': idx + 1,
+                'score': score
+            })
+            
+        if scores:
+            results['max_score'] = max(scores)
+            results['avg_match_score'] = sum(scores) / len(scores)
+            results['is_match'] = results['max_score'] >= match_threshold
+            results['matches_above_threshold'] = sum(1 for s in scores if s >= match_threshold)
+            
+        return results
 
     def get_best_candidate_face(self, faces: List[Dict]) -> Optional[Dict]:
         """Select the best face from multiple detections"""
