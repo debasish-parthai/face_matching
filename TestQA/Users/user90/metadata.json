@@ -1,0 +1,20 @@
+{
+  "user_id": "09630fad-6b07-4ce3-830c-7e1ebd6feeb6",
+  "user_number": 90,
+  "primary_photo": {
+    "original_url": "https://apps.parthaisolutions.com/ai-matchmaking/api/matrimony/static/profile_pics/09630fad-6b07-4ce3-830c-7e1ebd6feeb6/d7cdeb46-6c0f-46d8-b495-94b7718a5566.png",
+    "cropped_path": "user90_primary.jpg",
+    "face_detected": false
+  },
+  "additional_photos": [
+    {
+      "original_url": "https://apps.parthaisolutions.com/ai-matchmaking/api/matrimony/static/profile_pics/09630fad-6b07-4ce3-830c-7e1ebd6feeb6/cf39c1cc-947a-4bed-a4a6-590f1e311196.png",
+      "cropped_path": "user90_additional_1.jpg",
+      "face_detected": false
+    }
+  ],
+  "cropped_images": [
+    "user90_primary.jpg",
+    "user90_additional_1.jpg"
+  ]
+}

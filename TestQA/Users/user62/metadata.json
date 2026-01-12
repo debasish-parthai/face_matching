@@ -1,0 +1,56 @@
+{
+  "user_id": "0668ba5d-f687-4fc8-8766-f8a8b068fe84",
+  "user_number": 62,
+  "primary_photo": {
+    "original_url": "https://apps.parthaisolutions.com/ai-matchmaking/api/matrimony/static/profile_pics/0668ba5d-f687-4fc8-8766-f8a8b068fe84/75be7b4f-4526-43a3-8d87-e1e683f7ec19.jpg",
+    "cropped_path": "user62_primary.jpg",
+    "face_detected": true,
+    "face_info": {
+      "bbox": "[282.3368   72.68437 364.61444 163.98776]",
+      "det_score": "0.88993037",
+      "age": 35,
+      "gender": "1"
+    }
+  },
+  "additional_photos": [
+    {
+      "original_url": "https://apps.parthaisolutions.com/ai-matchmaking/api/matrimony/static/profile_pics/0668ba5d-f687-4fc8-8766-f8a8b068fe84/1c80a099-98fd-4f92-86c0-c62f9a2b9e38.jpg",
+      "cropped_path": "user62_additional_1.jpg",
+      "face_detected": true,
+      "face_info": {
+        "bbox": "[324.35764   50.489628 410.00415  145.13551 ]",
+        "det_score": "0.87307286",
+        "age": 44,
+        "gender": "1"
+      }
+    },
+    {
+      "original_url": "https://apps.parthaisolutions.com/ai-matchmaking/api/matrimony/static/profile_pics/0668ba5d-f687-4fc8-8766-f8a8b068fe84/3d743fea-9c24-46ab-be71-3c4824199a70.jpg",
+      "cropped_path": "user62_additional_2.jpg",
+      "face_detected": true,
+      "face_info": {
+        "bbox": "[320.5035    50.264668 409.53824  150.88596 ]",
+        "det_score": "0.84387416",
+        "age": 32,
+        "gender": "1"
+      }
+    },
+    {
+      "original_url": "https://apps.parthaisolutions.com/ai-matchmaking/api/matrimony/static/profile_pics/0668ba5d-f687-4fc8-8766-f8a8b068fe84/fa784a37-5006-483b-b455-0e7d9ed53428.jpg",
+      "cropped_path": "user62_additional_3.jpg",
+      "face_detected": true,
+      "face_info": {
+        "bbox": "[419.1718  123.35974 498.2831  215.58765]",
+        "det_score": "0.8855258",
+        "age": 22,
+        "gender": "1"
+      }
+    }
+  ],
+  "cropped_images": [
+    "user62_primary.jpg",
+    "user62_additional_1.jpg",
+    "user62_additional_2.jpg",
+    "user62_additional_3.jpg"
+  ]
+}

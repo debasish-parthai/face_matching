@@ -1,0 +1,56 @@
+{
+  "user_id": "0421174b-8889-46c0-ad11-61b50c50e651",
+  "user_number": 32,
+  "primary_photo": {
+    "original_url": "https://apps.parthaisolutions.com/ai-matchmaking/api/matrimony/static/profile_pics/0421174b-8889-46c0-ad11-61b50c50e651/b4093940-2d20-4ee5-a7d6-7442b318d89d.jpg",
+    "cropped_path": "user32_primary.jpg",
+    "face_detected": true,
+    "face_info": {
+      "bbox": "[384.09    424.63007 547.65015 631.1504 ]",
+      "det_score": "0.89928067",
+      "age": 48,
+      "gender": "1"
+    }
+  },
+  "additional_photos": [
+    {
+      "original_url": "https://apps.parthaisolutions.com/ai-matchmaking/api/matrimony/static/profile_pics/0421174b-8889-46c0-ad11-61b50c50e651/d625b22e-3289-4d4f-8f81-25531898c62f.jpg",
+      "cropped_path": "user32_additional_1.jpg",
+      "face_detected": true,
+      "face_info": {
+        "bbox": "[490.88446 395.79086 683.7328  628.78357]",
+        "det_score": "0.8990465",
+        "age": 48,
+        "gender": "1"
+      }
+    },
+    {
+      "original_url": "https://apps.parthaisolutions.com/ai-matchmaking/api/matrimony/static/profile_pics/0421174b-8889-46c0-ad11-61b50c50e651/a51064ea-9187-4db4-af00-b3e975660982.jpg",
+      "cropped_path": "user32_additional_2.jpg",
+      "face_detected": true,
+      "face_info": {
+        "bbox": "[242.7338  359.89545 291.98825 420.47983]",
+        "det_score": "0.87998474",
+        "age": 51,
+        "gender": "1"
+      }
+    },
+    {
+      "original_url": "https://apps.parthaisolutions.com/ai-matchmaking/api/matrimony/static/profile_pics/0421174b-8889-46c0-ad11-61b50c50e651/3573ed42-4f42-4caa-ba8b-6ab7c269a608.jpg",
+      "cropped_path": "user32_additional_3.jpg",
+      "face_detected": true,
+      "face_info": {
+        "bbox": "[284.82373 432.04623 378.35742 547.5585 ]",
+        "det_score": "0.8963176",
+        "age": 43,
+        "gender": "1"
+      }
+    }
+  ],
+  "cropped_images": [
+    "user32_primary.jpg",
+    "user32_additional_1.jpg",
+    "user32_additional_2.jpg",
+    "user32_additional_3.jpg"
+  ]
+}

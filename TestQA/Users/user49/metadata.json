@@ -1,0 +1,56 @@
+{
+  "user_id": "0522156e-5d31-4f09-a5d5-78e88eafb4b6",
+  "user_number": 49,
+  "primary_photo": {
+    "original_url": "https://apps.parthaisolutions.com/ai-matchmaking/api/matrimony/static/profile_pics/0522156e-5d31-4f09-a5d5-78e88eafb4b6/b4453e3e-5025-4ed6-bda5-231addcfd7fb.jpg",
+    "cropped_path": "user49_primary.jpg",
+    "face_detected": true,
+    "face_info": {
+      "bbox": "[216.47934 130.42474 423.35165 390.75635]",
+      "det_score": "0.9137623",
+      "age": 50,
+      "gender": "1"
+    }
+  },
+  "additional_photos": [
+    {
+      "original_url": "https://apps.parthaisolutions.com/ai-matchmaking/api/matrimony/static/profile_pics/0522156e-5d31-4f09-a5d5-78e88eafb4b6/ae3233b2-2290-41a8-911e-07c92f19ef93.jpg",
+      "cropped_path": "user49_additional_1.jpg",
+      "face_detected": true,
+      "face_info": {
+        "bbox": "[295.49374 462.3327  462.30307 686.1135 ]",
+        "det_score": "0.91950095",
+        "age": 36,
+        "gender": "1"
+      }
+    },
+    {
+      "original_url": "https://apps.parthaisolutions.com/ai-matchmaking/api/matrimony/static/profile_pics/0522156e-5d31-4f09-a5d5-78e88eafb4b6/7c052950-8712-4a97-aca6-b46a8b3c7c25.jpg",
+      "cropped_path": "user49_additional_2.jpg",
+      "face_detected": true,
+      "face_info": {
+        "bbox": "[144.71974  73.29418 227.85887 188.13483]",
+        "det_score": "0.90631294",
+        "age": 33,
+        "gender": "1"
+      }
+    },
+    {
+      "original_url": "https://apps.parthaisolutions.com/ai-matchmaking/api/matrimony/static/profile_pics/0522156e-5d31-4f09-a5d5-78e88eafb4b6/f7273c88-6e54-4aa6-9d8b-aedcae1e04a4.jpg",
+      "cropped_path": "user49_additional_3.jpg",
+      "face_detected": true,
+      "face_info": {
+        "bbox": "[493.60684 179.15767 702.7707  450.02423]",
+        "det_score": "0.90256315",
+        "age": 39,
+        "gender": "1"
+      }
+    }
+  ],
+  "cropped_images": [
+    "user49_primary.jpg",
+    "user49_additional_1.jpg",
+    "user49_additional_2.jpg",
+    "user49_additional_3.jpg"
+  ]
+}

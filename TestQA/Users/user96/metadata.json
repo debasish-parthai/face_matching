@@ -1,0 +1,68 @@
+{
+  "user_id": "0a445f3d-1ade-4701-a97a-a6168688687b",
+  "user_number": 96,
+  "primary_photo": {
+    "original_url": "https://apps.parthaisolutions.com/ai-matchmaking/api/matrimony/static/profile_pics/0a445f3d-1ade-4701-a97a-a6168688687b/5d65ff0e-399e-47bd-a44c-4906d63a4333.jpg",
+    "cropped_path": "user96_primary.jpg",
+    "face_detected": true,
+    "face_info": {
+      "bbox": "[386.45822 232.78513 520.0565  403.4635 ]",
+      "det_score": "0.8348258",
+      "age": 37,
+      "gender": "1"
+    }
+  },
+  "additional_photos": [
+    {
+      "original_url": "https://apps.parthaisolutions.com/ai-matchmaking/api/matrimony/static/profile_pics/0a445f3d-1ade-4701-a97a-a6168688687b/f36cbaf4-5382-474a-9759-fbb5f6ff4149.jpg",
+      "cropped_path": "user96_additional_1.jpg",
+      "face_detected": true,
+      "face_info": {
+        "bbox": "[352.00186 128.80415 453.12115 259.49918]",
+        "det_score": "0.86756366",
+        "age": 28,
+        "gender": "1"
+      }
+    },
+    {
+      "original_url": "https://apps.parthaisolutions.com/ai-matchmaking/api/matrimony/static/profile_pics/0a445f3d-1ade-4701-a97a-a6168688687b/e5db9e8b-3385-4b92-8928-64e7addf34b8.jpg",
+      "cropped_path": "user96_additional_2.jpg",
+      "face_detected": true,
+      "face_info": {
+        "bbox": "[327.36136   30.703094 414.74902  139.4458  ]",
+        "det_score": "0.89520663",
+        "age": 41,
+        "gender": "1"
+      }
+    },
+    {
+      "original_url": "https://apps.parthaisolutions.com/ai-matchmaking/api/matrimony/static/profile_pics/0a445f3d-1ade-4701-a97a-a6168688687b/13869e8c-cec5-4c1f-bf45-ae9351642ef0.jpg",
+      "cropped_path": "user96_additional_3.jpg",
+      "face_detected": true,
+      "face_info": {
+        "bbox": "[331.4119   87.92824 397.51974 169.77185]",
+        "det_score": "0.9173075",
+        "age": 30,
+        "gender": "1"
+      }
+    },
+    {
+      "original_url": "https://apps.parthaisolutions.com/ai-matchmaking/api/matrimony/static/profile_pics/0a445f3d-1ade-4701-a97a-a6168688687b/889b501f-6ee6-4d31-b92e-9a6c52703531.jpg",
+      "cropped_path": "user96_additional_4.jpg",
+      "face_detected": true,
+      "face_info": {
+        "bbox": "[354.4959  160.83064 419.00226 240.07246]",
+        "det_score": "0.8602866",
+        "age": 31,
+        "gender": "1"
+      }
+    }
+  ],
+  "cropped_images": [
+    "user96_primary.jpg",
+    "user96_additional_1.jpg",
+    "user96_additional_2.jpg",
+    "user96_additional_3.jpg",
+    "user96_additional_4.jpg"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "user_id": "08176726-62af-4ad2-b721-1be8d90d9452",
+  "user_number": 77,
+  "primary_photo": {
+    "original_url": "https://apps.parthaisolutions.com/ai-matchmaking/api/matrimony/static/profile_pics/08176726-62af-4ad2-b721-1be8d90d9452/1f08c17a-65ea-4f33-a103-11cb1d3aeb99.jpg",
+    "cropped_path": "user77_primary.jpg",
+    "face_detected": true,
+    "face_info": {
+      "bbox": "[275.62744  90.39215 542.82684 437.68985]",
+      "det_score": "0.8338183",
+      "age": 59,
+      "gender": "1"
+    }
+  },
+  "additional_photos": [
+    {
+      "original_url": "https://apps.parthaisolutions.com/ai-matchmaking/api/matrimony/static/profile_pics/08176726-62af-4ad2-b721-1be8d90d9452/dd5b465e-e841-46ab-8327-bb7a169ef2e2.jpg",
+      "cropped_path": "user77_additional_1.jpg",
+      "face_detected": true,
+      "face_info": {
+        "bbox": "[260.52704 127.11754 392.3476  303.65112]",
+        "det_score": "0.8560979",
+        "age": 58,
+        "gender": "1"
+      }
+    }
+  ],
+  "cropped_images": [
+    "user77_primary.jpg",
+    "user77_additional_1.jpg"
+  ]
+}

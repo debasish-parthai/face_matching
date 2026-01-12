@@ -1,0 +1,68 @@
+{
+  "user_id": "081af563-017d-4365-b281-3e2bd79751df",
+  "user_number": 79,
+  "primary_photo": {
+    "original_url": "https://apps.parthaisolutions.com/ai-matchmaking/api/matrimony/static/profile_pics/081af563-017d-4365-b281-3e2bd79751df/e94dc408-bdd4-4d99-8b70-0f81fdd7a074.jpg",
+    "cropped_path": "user79_primary.jpg",
+    "face_detected": true,
+    "face_info": {
+      "bbox": "[501.0874  166.68713 633.127   327.31525]",
+      "det_score": "0.81143343",
+      "age": 38,
+      "gender": "1"
+    }
+  },
+  "additional_photos": [
+    {
+      "original_url": "https://apps.parthaisolutions.com/ai-matchmaking/api/matrimony/static/profile_pics/081af563-017d-4365-b281-3e2bd79751df/54b47ac2-cf0d-4b3b-b498-0059187eee7c.jpg",
+      "cropped_path": "user79_additional_1.jpg",
+      "face_detected": true,
+      "face_info": {
+        "bbox": "[371.53363 373.2376  471.67682 492.75357]",
+        "det_score": "0.84196013",
+        "age": 34,
+        "gender": "1"
+      }
+    },
+    {
+      "original_url": "https://apps.parthaisolutions.com/ai-matchmaking/api/matrimony/static/profile_pics/081af563-017d-4365-b281-3e2bd79751df/e21df25c-6eb3-4012-b0cf-aeb1463171ae.jpg",
+      "cropped_path": "user79_additional_2.jpg",
+      "face_detected": true,
+      "face_info": {
+        "bbox": "[403.60773 371.78928 473.72397 455.8615 ]",
+        "det_score": "0.88920873",
+        "age": 30,
+        "gender": "1"
+      }
+    },
+    {
+      "original_url": "https://apps.parthaisolutions.com/ai-matchmaking/api/matrimony/static/profile_pics/081af563-017d-4365-b281-3e2bd79751df/e2ae3523-0a29-46d1-b879-73e95ec3ecee.jpg",
+      "cropped_path": "user79_additional_3.jpg",
+      "face_detected": true,
+      "face_info": {
+        "bbox": "[337.0888  146.31956 407.76443 236.50102]",
+        "det_score": "0.8970081",
+        "age": 35,
+        "gender": "1"
+      }
+    },
+    {
+      "original_url": "https://apps.parthaisolutions.com/ai-matchmaking/api/matrimony/static/profile_pics/081af563-017d-4365-b281-3e2bd79751df/8316872f-c13b-4a2a-b45b-d222d8b4f5f4.jpg",
+      "cropped_path": "user79_additional_4.jpg",
+      "face_detected": true,
+      "face_info": {
+        "bbox": "[371.53363 373.2376  471.67682 492.75357]",
+        "det_score": "0.84196013",
+        "age": 34,
+        "gender": "1"
+      }
+    }
+  ],
+  "cropped_images": [
+    "user79_primary.jpg",
+    "user79_additional_1.jpg",
+    "user79_additional_2.jpg",
+    "user79_additional_3.jpg",
+    "user79_additional_4.jpg"
+  ]
+}
