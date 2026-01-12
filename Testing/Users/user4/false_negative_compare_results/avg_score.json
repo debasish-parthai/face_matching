@@ -1,0 +1,176 @@
+{
+    "average_score": 5.483387965708971,
+    "total_scores_count": 16,
+    "user": "user4",
+    "data_type": "false_negative",
+    "comparisons_summary": [
+        {
+            "candidate_image_name": "user4_01.jpg",
+            "comparing_with_image_name": "user5_01.jpg",
+            "score": 0.7543871998786926,
+            "face_detected": 1,
+            "compared_user": "user5"
+        },
+        {
+            "candidate_image_name": "user4_01.jpg",
+            "comparing_with_image_name": "user5_02.jpg",
+            "score": 2.886483907699585,
+            "face_detected": 1,
+            "compared_user": "user5"
+        },
+        {
+            "candidate_image_name": "user4_01.jpg",
+            "comparing_with_image_name": "user5_03.jpg",
+            "score": 2.631751298904419,
+            "face_detected": 1,
+            "compared_user": "user5"
+        },
+        {
+            "candidate_image_name": "user4_01.jpg",
+            "comparing_with_image_name": "user5_04.jpg",
+            "score": 0,
+            "face_detected": 1,
+            "compared_user": "user5"
+        },
+        {
+            "candidate_image_name": "user4_02.jpg",
+            "comparing_with_image_name": "user5_01.jpg",
+            "score": 12.726810455322266,
+            "face_detected": 1,
+            "compared_user": "user5"
+        },
+        {
+            "candidate_image_name": "user4_02.jpg",
+            "comparing_with_image_name": "user5_02.jpg",
+            "score": 11.491677284240723,
+            "face_detected": 1,
+            "compared_user": "user5"
+        },
+        {
+            "candidate_image_name": "user4_02.jpg",
+            "comparing_with_image_name": "user5_03.jpg",
+            "score": 10.870844841003418,
+            "face_detected": 1,
+            "compared_user": "user5"
+        },
+        {
+            "candidate_image_name": "user4_02.jpg",
+            "comparing_with_image_name": "user5_04.jpg",
+            "score": 6.845138072967529,
+            "face_detected": 1,
+            "compared_user": "user5"
+        },
+        {
+            "candidate_image_name": "user4_03.jpg",
+            "comparing_with_image_name": "user5_01.jpg",
+            "score": 4.333303451538086,
+            "face_detected": 1,
+            "compared_user": "user5"
+        },
+        {
+            "candidate_image_name": "user4_03.jpg",
+            "comparing_with_image_name": "user5_02.jpg",
+            "score": 5.147165775299072,
+            "face_detected": 1,
+            "compared_user": "user5"
+        },
+        {
+            "candidate_image_name": "user4_03.jpg",
+            "comparing_with_image_name": "user5_03.jpg",
+            "score": 4.990644931793213,
+            "face_detected": 1,
+            "compared_user": "user5"
+        },
+        {
+            "candidate_image_name": "user4_03.jpg",
+            "comparing_with_image_name": "user5_04.jpg",
+            "score": 4.218512535095215,
+            "face_detected": 1,
+            "compared_user": "user5"
+        },
+        {
+            "candidate_image_name": "user4_04.jpg",
+            "comparing_with_image_name": "user5_01.jpg",
+            "score": 4.482224941253662,
+            "face_detected": 1,
+            "compared_user": "user5"
+        },
+        {
+            "candidate_image_name": "user4_04.jpg",
+            "comparing_with_image_name": "user5_02.jpg",
+            "score": 5.747198581695557,
+            "face_detected": 1,
+            "compared_user": "user5"
+        },
+        {
+            "candidate_image_name": "user4_04.jpg",
+            "comparing_with_image_name": "user5_03.jpg",
+            "score": 6.72054386138916,
+            "face_detected": 1,
+            "compared_user": "user5"
+        },
+        {
+            "candidate_image_name": "user4_04.jpg",
+            "comparing_with_image_name": "user5_04.jpg",
+            "score": 3.8875203132629395,
+            "face_detected": 1,
+            "compared_user": "user5"
+        }
+    ],
+    "high_score_summary": {
+        "count": 7,
+        "threshold": 5.0,
+        "description": "Comparisons with max_score greater than 5",
+        "results": [
+            {
+                "candidate_image_name": "user4_02.jpg",
+                "comparing_with_image_name": "user5_01.jpg",
+                "score": 12.726810455322266,
+                "face_detected": 1,
+                "compared_user": "user5"
+            },
+            {
+                "candidate_image_name": "user4_02.jpg",
+                "comparing_with_image_name": "user5_02.jpg",
+                "score": 11.491677284240723,
+                "face_detected": 1,
+                "compared_user": "user5"
+            },
+            {
+                "candidate_image_name": "user4_02.jpg",
+                "comparing_with_image_name": "user5_03.jpg",
+                "score": 10.870844841003418,
+                "face_detected": 1,
+                "compared_user": "user5"
+            },
+            {
+                "candidate_image_name": "user4_02.jpg",
+                "comparing_with_image_name": "user5_04.jpg",
+                "score": 6.845138072967529,
+                "face_detected": 1,
+                "compared_user": "user5"
+            },
+            {
+                "candidate_image_name": "user4_03.jpg",
+                "comparing_with_image_name": "user5_02.jpg",
+                "score": 5.147165775299072,
+                "face_detected": 1,
+                "compared_user": "user5"
+            },
+            {
+                "candidate_image_name": "user4_04.jpg",
+                "comparing_with_image_name": "user5_02.jpg",
+                "score": 5.747198581695557,
+                "face_detected": 1,
+                "compared_user": "user5"
+            },
+            {
+                "candidate_image_name": "user4_04.jpg",
+                "comparing_with_image_name": "user5_03.jpg",
+                "score": 6.72054386138916,
+                "face_detected": 1,
+                "compared_user": "user5"
+            }
+        ]
+    }
+}

@@ -213,11 +213,12 @@ class FalseNegativeTester:
             logger.error(f"Users folder not found: {users_base_folder}")
             return
 
-        # Get all user folders (user1, user2, ..., user25)
+        # Get only user1, user2, user3, user4, and user5 folders
         user_folders = []
+        target_users = ['user1', 'user2', 'user3', 'user4', 'user5']
         for item in os.listdir(users_base_folder):
             item_path = os.path.join(users_base_folder, item)
-            if os.path.isdir(item_path) and item.startswith('user'):
+            if os.path.isdir(item_path) and item in target_users:
                 user_folders.append(item_path)
 
         user_folders.sort()
