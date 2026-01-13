@@ -5,4 +5,5 @@ __pycache__/
 *.pycvenv/
 TestQA/Users/
 TestQA/Users_Final/
-TestQA/cross_user_matching_results*
+TestQA/User_Matching_Results/
+TestQA/summary_results/
