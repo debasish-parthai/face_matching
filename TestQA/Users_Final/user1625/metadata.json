@@ -1,0 +1,60 @@
+{
+  "user_id": "a6f2c119-cd70-47b5-a9c4-257839143e3e",
+  "user_number": 1625,
+  "primary_photo": {
+    "original_url": "https://apps.parthaisolutions.com/ai-matchmaking/api/matrimony/static/profile_pics/a6f2c119-cd70-47b5-a9c4-257839143e3e/4bd5b920-1001-4220-b807-fe1ef8475e27.jpg",
+    "cropped_path": "user1625_primary.jpg",
+    "embedding_path": "user1625_primary_embedding.npy",
+    "face_detected": true,
+    "face_info": {
+      "bbox": "[459.3856  332.63458 522.57324 409.71323]",
+      "det_score": "0.9026702",
+      "age": 32,
+      "gender": "1"
+    }
+  },
+  "additional_photos": [
+    {
+      "original_url": "https://apps.parthaisolutions.com/ai-matchmaking/api/matrimony/static/profile_pics/a6f2c119-cd70-47b5-a9c4-257839143e3e/18269ed4-86d2-48ed-8ed1-b51bdf310f8e.jpg",
+      "cropped_path": "user1625_additional_1.jpg",
+      "embedding_path": "user1625_additional_1_embedding.npy",
+      "face_detected": true,
+      "face_info": {
+        "bbox": "[489.98022 342.58423 538.6378  402.6761 ]",
+        "det_score": "0.86134917",
+        "age": 38,
+        "gender": "1"
+      }
+    },
+    {
+      "original_url": "https://apps.parthaisolutions.com/ai-matchmaking/api/matrimony/static/profile_pics/a6f2c119-cd70-47b5-a9c4-257839143e3e/fc820750-6d68-4312-a60b-2f9b1ddfb921.jpg",
+      "cropped_path": "user1625_additional_2.jpg",
+      "embedding_path": "user1625_additional_2_embedding.npy",
+      "face_detected": true,
+      "face_info": {
+        "bbox": "[264.59387 340.71326 297.242   380.17264]",
+        "det_score": "0.80162334",
+        "age": 28,
+        "gender": "1"
+      }
+    },
+    {
+      "original_url": "https://apps.parthaisolutions.com/ai-matchmaking/api/matrimony/static/profile_pics/a6f2c119-cd70-47b5-a9c4-257839143e3e/2a90b806-0b73-4b33-8634-288c82f6fba7.jpg",
+      "cropped_path": "user1625_additional_3.jpg",
+      "embedding_path": "user1625_additional_3_embedding.npy",
+      "face_detected": true,
+      "face_info": {
+        "bbox": "[332.61618 395.4454  408.16107 492.69714]",
+        "det_score": "0.82378733",
+        "age": 36,
+        "gender": "1"
+      }
+    }
+  ],
+  "cropped_images": [
+    "user1625_primary.jpg",
+    "user1625_additional_1.jpg",
+    "user1625_additional_2.jpg",
+    "user1625_additional_3.jpg"
+  ]
+}

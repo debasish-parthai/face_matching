@@ -84,7 +84,7 @@ def extract_user_image_data():
         "photos": 1
     }
 
-    users_data = list(collection_user_registration.find(registration_query, projection).limit(100))
+    users_data = list(collection_user_registration.find(registration_query, projection))
 
     print(f"Found {len(users_data)} users with primary_photo and at least one additional_photo")
 

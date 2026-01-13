@@ -1,0 +1,53 @@
+{
+  "user_id": "cfd8dfd9-c420-4b06-bf08-4e8a3e9628a0",
+  "user_number": 2002,
+  "primary_photo": {
+    "original_url": "https://apps.parthaisolutions.com/ai-matchmaking/api/matrimony/static/profile_pics/cfd8dfd9-c420-4b06-bf08-4e8a3e9628a0/8e9adbf8-e4e4-474b-82ad-f340466aabf5.jpg",
+    "cropped_path": "user2002_primary.jpg",
+    "embedding_path": "user2002_primary_embedding.npy",
+    "face_detected": true,
+    "face_info": {
+      "bbox": "[349.66342 334.28696 419.27008 415.369  ]",
+      "det_score": "0.90445983",
+      "age": 44,
+      "gender": "1"
+    }
+  },
+  "additional_photos": [
+    {
+      "original_url": "https://apps.parthaisolutions.com/ai-matchmaking/api/matrimony/static/profile_pics/cfd8dfd9-c420-4b06-bf08-4e8a3e9628a0/36f44b3f-55d7-484f-94d0-dd63197aee1f.jpg",
+      "cropped_path": "user2002_additional_1.jpg",
+      "embedding_path": "user2002_additional_1_embedding.npy",
+      "face_detected": true,
+      "face_info": {
+        "bbox": "[557.829    78.49781 832.6549  437.6206 ]",
+        "det_score": "0.8602783",
+        "age": 39,
+        "gender": "1"
+      }
+    },
+    {
+      "original_url": "https://apps.parthaisolutions.com/ai-matchmaking/api/matrimony/static/profile_pics/cfd8dfd9-c420-4b06-bf08-4e8a3e9628a0/ddbf31ae-8199-49c7-95df-a1b044663471.jpg",
+      "cropped_path": "user2002_additional_2.jpg",
+      "embedding_path": "user2002_additional_2_embedding.npy",
+      "face_detected": true,
+      "face_info": {
+        "bbox": "[431.16226 488.31036 473.55142 541.4457 ]",
+        "det_score": "0.8166508",
+        "age": 32,
+        "gender": "1"
+      }
+    },
+    {
+      "original_url": "https://apps.parthaisolutions.com/ai-matchmaking/api/matrimony/static/profile_pics/cfd8dfd9-c420-4b06-bf08-4e8a3e9628a0/7ab9f44a-27ce-4e42-95f5-250ef7cc129b.jpg",
+      "cropped_path": "user2002_additional_3.jpg",
+      "face_detected": false
+    }
+  ],
+  "cropped_images": [
+    "user2002_primary.jpg",
+    "user2002_additional_1.jpg",
+    "user2002_additional_2.jpg",
+    "user2002_additional_3.jpg"
+  ]
+}

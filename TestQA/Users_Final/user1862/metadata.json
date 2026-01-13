@@ -1,0 +1,73 @@
+{
+  "user_id": "c105da39-fb22-422c-8902-667804454cae",
+  "user_number": 1862,
+  "primary_photo": {
+    "original_url": "https://apps.parthaisolutions.com/ai-matchmaking/api/matrimony/static/profile_pics/c105da39-fb22-422c-8902-667804454cae/4bce2ea6-8605-48a4-898f-7809ee4dbedc.jpg",
+    "cropped_path": "user1862_primary.jpg",
+    "embedding_path": "user1862_primary_embedding.npy",
+    "face_detected": true,
+    "face_info": {
+      "bbox": "[181.65068 156.17618 245.56929 240.60066]",
+      "det_score": "0.904511",
+      "age": 46,
+      "gender": "1"
+    }
+  },
+  "additional_photos": [
+    {
+      "original_url": "https://apps.parthaisolutions.com/ai-matchmaking/api/matrimony/static/profile_pics/c105da39-fb22-422c-8902-667804454cae/4c019c24-88d6-4b72-a7cb-ea6b920bb4d3.jpg",
+      "cropped_path": "user1862_additional_1.jpg",
+      "embedding_path": "user1862_additional_1_embedding.npy",
+      "face_detected": true,
+      "face_info": {
+        "bbox": "[299.00348 522.22314 338.45673 569.57916]",
+        "det_score": "0.8143709",
+        "age": 43,
+        "gender": "1"
+      }
+    },
+    {
+      "original_url": "https://apps.parthaisolutions.com/ai-matchmaking/api/matrimony/static/profile_pics/c105da39-fb22-422c-8902-667804454cae/92956c9d-06fd-40e6-bbb6-3df1b9bad342.jpg",
+      "cropped_path": "user1862_additional_2.jpg",
+      "embedding_path": "user1862_additional_2_embedding.npy",
+      "face_detected": true,
+      "face_info": {
+        "bbox": "[211.45657 568.13574 235.51314 598.467  ]",
+        "det_score": "0.7264277",
+        "age": 53,
+        "gender": "1"
+      }
+    },
+    {
+      "original_url": "https://apps.parthaisolutions.com/ai-matchmaking/api/matrimony/static/profile_pics/c105da39-fb22-422c-8902-667804454cae/0a88ad57-6aad-4a2c-bbfd-bbce69740825.jpg",
+      "cropped_path": "user1862_additional_3.jpg",
+      "embedding_path": "user1862_additional_3_embedding.npy",
+      "face_detected": true,
+      "face_info": {
+        "bbox": "[270.0462  528.22156 290.8681  553.76227]",
+        "det_score": "0.66195345",
+        "age": 50,
+        "gender": "1"
+      }
+    },
+    {
+      "original_url": "https://apps.parthaisolutions.com/ai-matchmaking/api/matrimony/static/profile_pics/c105da39-fb22-422c-8902-667804454cae/107ec953-3041-476d-bc9d-27c12f7dccdf.jpg",
+      "cropped_path": "user1862_additional_4.jpg",
+      "embedding_path": "user1862_additional_4_embedding.npy",
+      "face_detected": true,
+      "face_info": {
+        "bbox": "[260.02655 350.1645  315.57773 417.52817]",
+        "det_score": "0.8871003",
+        "age": 42,
+        "gender": "1"
+      }
+    }
+  ],
+  "cropped_images": [
+    "user1862_primary.jpg",
+    "user1862_additional_1.jpg",
+    "user1862_additional_2.jpg",
+    "user1862_additional_3.jpg",
+    "user1862_additional_4.jpg"
+  ]
+}

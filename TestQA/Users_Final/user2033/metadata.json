@@ -1,0 +1,66 @@
+{
+  "user_id": "d21578a1-25cd-473b-a9f3-9b70ed88ec89",
+  "user_number": 2033,
+  "primary_photo": {
+    "original_url": "https://apps.parthaisolutions.com/ai-matchmaking/api/matrimony/static/profile_pics/d21578a1-25cd-473b-a9f3-9b70ed88ec89/6e67c232-07a5-455f-a905-fcd6d1e8a5a8.jpg",
+    "cropped_path": "user2033_primary.jpg",
+    "face_detected": false
+  },
+  "additional_photos": [
+    {
+      "original_url": "https://apps.parthaisolutions.com/ai-matchmaking/api/matrimony/static/profile_pics/d21578a1-25cd-473b-a9f3-9b70ed88ec89/e9b402e5-b8f2-4af2-910f-a01379b080c0.jpg",
+      "cropped_path": "user2033_additional_1.jpg",
+      "embedding_path": "user2033_additional_1_embedding.npy",
+      "face_detected": true,
+      "face_info": {
+        "bbox": "[187.49086 400.60284 239.72075 457.85977]",
+        "det_score": "0.8615656",
+        "age": 36,
+        "gender": "1"
+      }
+    },
+    {
+      "original_url": "https://apps.parthaisolutions.com/ai-matchmaking/api/matrimony/static/profile_pics/d21578a1-25cd-473b-a9f3-9b70ed88ec89/ff09d46f-2384-4172-af5f-b8bf5dffde63.jpg",
+      "cropped_path": "user2033_additional_2.jpg",
+      "embedding_path": "user2033_additional_2_embedding.npy",
+      "face_detected": true,
+      "face_info": {
+        "bbox": "[127.210106 381.49072  309.5357   599.03784 ]",
+        "det_score": "0.88079655",
+        "age": 40,
+        "gender": "1"
+      }
+    },
+    {
+      "original_url": "https://apps.parthaisolutions.com/ai-matchmaking/api/matrimony/static/profile_pics/d21578a1-25cd-473b-a9f3-9b70ed88ec89/1ba4462f-9328-4c9c-9724-e74da7ae2ac1.jpg",
+      "cropped_path": "user2033_additional_3.jpg",
+      "embedding_path": "user2033_additional_3_embedding.npy",
+      "face_detected": true,
+      "face_info": {
+        "bbox": "[177.60733 249.11247 253.8606  337.81805]",
+        "det_score": "0.87830156",
+        "age": 35,
+        "gender": "1"
+      }
+    },
+    {
+      "original_url": "https://apps.parthaisolutions.com/ai-matchmaking/api/matrimony/static/profile_pics/d21578a1-25cd-473b-a9f3-9b70ed88ec89/731c663f-bcae-45c4-a7b2-2b2fb914d0f2.jpg",
+      "cropped_path": "user2033_additional_4.jpg",
+      "embedding_path": "user2033_additional_4_embedding.npy",
+      "face_detected": true,
+      "face_info": {
+        "bbox": "[358.62067 205.43527 425.22754 277.69534]",
+        "det_score": "0.8077327",
+        "age": 44,
+        "gender": "1"
+      }
+    }
+  ],
+  "cropped_images": [
+    "user2033_primary.jpg",
+    "user2033_additional_1.jpg",
+    "user2033_additional_2.jpg",
+    "user2033_additional_3.jpg",
+    "user2033_additional_4.jpg"
+  ]
+}

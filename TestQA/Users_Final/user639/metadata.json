@@ -1,0 +1,53 @@
+{
+  "user_id": "3daf274a-2239-4cf7-87ec-551b935e77fe",
+  "user_number": 639,
+  "primary_photo": {
+    "original_url": "https://apps.parthaisolutions.com/ai-matchmaking/api/matrimony/static/profile_pics/3daf274a-2239-4cf7-87ec-551b935e77fe/91f0b69f-8d36-4c17-89a9-8ec232cf4b30.jpg",
+    "cropped_path": "user639_primary.jpg",
+    "embedding_path": "user639_primary_embedding.npy",
+    "face_detected": true,
+    "face_info": {
+      "bbox": "[301.70428 238.17966 539.2703  574.28815]",
+      "det_score": "0.8229297",
+      "age": 40,
+      "gender": "1"
+    }
+  },
+  "additional_photos": [
+    {
+      "original_url": "https://apps.parthaisolutions.com/ai-matchmaking/api/matrimony/static/profile_pics/3daf274a-2239-4cf7-87ec-551b935e77fe/bd3c2e04-81d9-446f-b42e-7acd9a062e1b.jpg",
+      "cropped_path": "user639_additional_1.jpg",
+      "embedding_path": "user639_additional_1_embedding.npy",
+      "face_detected": true,
+      "face_info": {
+        "bbox": "[262.62543 499.3421  343.31427 602.8768 ]",
+        "det_score": "0.90681386",
+        "age": 31,
+        "gender": "1"
+      }
+    },
+    {
+      "original_url": "https://apps.parthaisolutions.com/ai-matchmaking/api/matrimony/static/profile_pics/3daf274a-2239-4cf7-87ec-551b935e77fe/a98726ed-3de7-4a3d-b0e9-6e32fbd55bcd.jpg",
+      "cropped_path": "user639_additional_2.jpg",
+      "embedding_path": "user639_additional_2_embedding.npy",
+      "face_detected": true,
+      "face_info": {
+        "bbox": "[216.7107  386.72348 458.02304 718.7781 ]",
+        "det_score": "0.84100145",
+        "age": 37,
+        "gender": "1"
+      }
+    },
+    {
+      "original_url": "https://apps.parthaisolutions.com/ai-matchmaking/api/matrimony/static/profile_pics/3daf274a-2239-4cf7-87ec-551b935e77fe/f3d2a416-b7cd-46ca-9d53-b1830f880938.jpg",
+      "cropped_path": "user639_additional_3.jpg",
+      "face_detected": false
+    }
+  ],
+  "cropped_images": [
+    "user639_primary.jpg",
+    "user639_additional_1.jpg",
+    "user639_additional_2.jpg",
+    "user639_additional_3.jpg"
+  ]
+}

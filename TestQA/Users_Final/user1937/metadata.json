@@ -1,0 +1,60 @@
+{
+  "user_id": "c8ddf2d1-5584-439a-b412-3789bde61742",
+  "user_number": 1937,
+  "primary_photo": {
+    "original_url": "https://apps.parthaisolutions.com/ai-matchmaking/api/matrimony/static/profile_pics/c8ddf2d1-5584-439a-b412-3789bde61742/1f695d87-b0d8-4f38-9f7b-69aba3c17690.jpg",
+    "cropped_path": "user1937_primary.jpg",
+    "embedding_path": "user1937_primary_embedding.npy",
+    "face_detected": true,
+    "face_info": {
+      "bbox": "[132.14542 482.90103 163.6456  521.90356]",
+      "det_score": "0.7798094",
+      "age": 32,
+      "gender": "1"
+    }
+  },
+  "additional_photos": [
+    {
+      "original_url": "https://apps.parthaisolutions.com/ai-matchmaking/api/matrimony/static/profile_pics/c8ddf2d1-5584-439a-b412-3789bde61742/869c03da-04ae-4025-979f-cc9d65b0bfe2.jpg",
+      "cropped_path": "user1937_additional_1.jpg",
+      "embedding_path": "user1937_additional_1_embedding.npy",
+      "face_detected": true,
+      "face_info": {
+        "bbox": "[347.4498  176.42941 413.84845 261.59686]",
+        "det_score": "0.8822187",
+        "age": 31,
+        "gender": "1"
+      }
+    },
+    {
+      "original_url": "https://apps.parthaisolutions.com/ai-matchmaking/api/matrimony/static/profile_pics/c8ddf2d1-5584-439a-b412-3789bde61742/5e7b2d1e-d8c1-4dc4-8880-456c63662a5e.jpg",
+      "cropped_path": "user1937_additional_2.jpg",
+      "embedding_path": "user1937_additional_2_embedding.npy",
+      "face_detected": true,
+      "face_info": {
+        "bbox": "[374.7022  212.87566 435.09708 288.5576 ]",
+        "det_score": "0.857905",
+        "age": 32,
+        "gender": "1"
+      }
+    },
+    {
+      "original_url": "https://apps.parthaisolutions.com/ai-matchmaking/api/matrimony/static/profile_pics/c8ddf2d1-5584-439a-b412-3789bde61742/1d044a20-6df5-42cc-a408-029f9bc6857b.jpg",
+      "cropped_path": "user1937_additional_3.jpg",
+      "embedding_path": "user1937_additional_3_embedding.npy",
+      "face_detected": true,
+      "face_info": {
+        "bbox": "[343.00787 188.13718 442.6167  316.9013 ]",
+        "det_score": "0.90031683",
+        "age": 34,
+        "gender": "1"
+      }
+    }
+  ],
+  "cropped_images": [
+    "user1937_primary.jpg",
+    "user1937_additional_1.jpg",
+    "user1937_additional_2.jpg",
+    "user1937_additional_3.jpg"
+  ]
+}

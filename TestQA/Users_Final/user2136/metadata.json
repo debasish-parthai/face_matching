@@ -1,0 +1,66 @@
+{
+  "user_id": "dc56a0b3-b374-444a-b25c-622e04dc6c66",
+  "user_number": 2136,
+  "primary_photo": {
+    "original_url": "https://apps.parthaisolutions.com/ai-matchmaking/api/matrimony/static/profile_pics/dc56a0b3-b374-444a-b25c-622e04dc6c66/597abfb2-ca4f-45a3-a280-1f43c91e4f22.jpg",
+    "cropped_path": "user2136_primary.jpg",
+    "embedding_path": "user2136_primary_embedding.npy",
+    "face_detected": true,
+    "face_info": {
+      "bbox": "[254.97482   56.706566 336.5323   154.15498 ]",
+      "det_score": "0.8912184",
+      "age": 34,
+      "gender": "1"
+    }
+  },
+  "additional_photos": [
+    {
+      "original_url": "https://apps.parthaisolutions.com/ai-matchmaking/api/matrimony/static/profile_pics/dc56a0b3-b374-444a-b25c-622e04dc6c66/6a7485e7-972f-4628-b23c-16def9638a9c.jpg",
+      "cropped_path": "user2136_additional_1.jpg",
+      "embedding_path": "user2136_additional_1_embedding.npy",
+      "face_detected": true,
+      "face_info": {
+        "bbox": "[457.0411  129.48866 548.22205 242.04166]",
+        "det_score": "0.9147104",
+        "age": 33,
+        "gender": "1"
+      }
+    },
+    {
+      "original_url": "https://apps.parthaisolutions.com/ai-matchmaking/api/matrimony/static/profile_pics/dc56a0b3-b374-444a-b25c-622e04dc6c66/ccba945b-c903-4f3e-a6d6-c4c3d3b58f43.jpg",
+      "cropped_path": "user2136_additional_2.jpg",
+      "embedding_path": "user2136_additional_2_embedding.npy",
+      "face_detected": true,
+      "face_info": {
+        "bbox": "[415.70834  71.05124 481.80264 150.93411]",
+        "det_score": "0.8899504",
+        "age": 46,
+        "gender": "1"
+      }
+    },
+    {
+      "original_url": "https://apps.parthaisolutions.com/ai-matchmaking/api/matrimony/static/profile_pics/dc56a0b3-b374-444a-b25c-622e04dc6c66/84ed70b1-9fa7-4569-a213-85a34bd65491.jpg",
+      "cropped_path": "user2136_additional_3.jpg",
+      "face_detected": false
+    },
+    {
+      "original_url": "https://apps.parthaisolutions.com/ai-matchmaking/api/matrimony/static/profile_pics/dc56a0b3-b374-444a-b25c-622e04dc6c66/7d53f615-42a1-4aee-88e5-54eb6fb232e4.jpg",
+      "cropped_path": "user2136_additional_4.jpg",
+      "embedding_path": "user2136_additional_4_embedding.npy",
+      "face_detected": true,
+      "face_info": {
+        "bbox": "[321.32303   54.875492 394.0736   141.64758 ]",
+        "det_score": "0.79327244",
+        "age": 37,
+        "gender": "1"
+      }
+    }
+  ],
+  "cropped_images": [
+    "user2136_primary.jpg",
+    "user2136_additional_1.jpg",
+    "user2136_additional_2.jpg",
+    "user2136_additional_3.jpg",
+    "user2136_additional_4.jpg"
+  ]
+}

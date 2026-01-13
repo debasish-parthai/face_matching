@@ -1,0 +1,60 @@
+{
+  "user_id": "e9835a6b-070e-4f03-ad61-e8817b756881",
+  "user_number": 2268,
+  "primary_photo": {
+    "original_url": "https://apps.parthaisolutions.com/ai-matchmaking/api/matrimony/static/profile_pics/e9835a6b-070e-4f03-ad61-e8817b756881/f7c810c0-aa88-435c-9bbe-63d7f65f0307.jpg",
+    "cropped_path": "user2268_primary.jpg",
+    "embedding_path": "user2268_primary_embedding.npy",
+    "face_detected": true,
+    "face_info": {
+      "bbox": "[275.48227 300.60532 313.3363  347.4062 ]",
+      "det_score": "0.80253345",
+      "age": 37,
+      "gender": "1"
+    }
+  },
+  "additional_photos": [
+    {
+      "original_url": "https://apps.parthaisolutions.com/ai-matchmaking/api/matrimony/static/profile_pics/e9835a6b-070e-4f03-ad61-e8817b756881/d16080ff-cbc2-4983-86d5-2f8faddf241f.jpg",
+      "cropped_path": "user2268_additional_1.jpg",
+      "embedding_path": "user2268_additional_1_embedding.npy",
+      "face_detected": true,
+      "face_info": {
+        "bbox": "[551.07104 180.96283 668.1388  349.84613]",
+        "det_score": "0.7881784",
+        "age": 37,
+        "gender": "1"
+      }
+    },
+    {
+      "original_url": "https://apps.parthaisolutions.com/ai-matchmaking/api/matrimony/static/profile_pics/e9835a6b-070e-4f03-ad61-e8817b756881/06ef6aa7-d125-420d-85cc-5d8be1f7270e.jpg",
+      "cropped_path": "user2268_additional_2.jpg",
+      "embedding_path": "user2268_additional_2_embedding.npy",
+      "face_detected": true,
+      "face_info": {
+        "bbox": "[200.1807 538.4324 269.5302 627.526 ]",
+        "det_score": "0.91137874",
+        "age": 35,
+        "gender": "1"
+      }
+    },
+    {
+      "original_url": "https://apps.parthaisolutions.com/ai-matchmaking/api/matrimony/static/profile_pics/e9835a6b-070e-4f03-ad61-e8817b756881/3ba14ce6-3058-4a9a-83df-72a46dc3ed6d.jpg",
+      "cropped_path": "user2268_additional_3.jpg",
+      "embedding_path": "user2268_additional_3_embedding.npy",
+      "face_detected": true,
+      "face_info": {
+        "bbox": "[373.20532 169.70659 515.9866  363.20493]",
+        "det_score": "0.8945606",
+        "age": 34,
+        "gender": "1"
+      }
+    }
+  ],
+  "cropped_images": [
+    "user2268_primary.jpg",
+    "user2268_additional_1.jpg",
+    "user2268_additional_2.jpg",
+    "user2268_additional_3.jpg"
+  ]
+}
