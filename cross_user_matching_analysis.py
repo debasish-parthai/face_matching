@@ -141,5 +141,56 @@ def run_cross_user_matching():
         print(f"   User 2: {res['user2_folder']} ({res['file2']})")
         print("-" * 80)
 
+def chunk_cross_user_matching_results(chunk_size: int = 5000):
+    """Chunk the cross_user_matching_results.json file into smaller files of specified size"""
+    input_path = os.path.join(os.path.dirname(__file__), "TestQA", "cross_user_matching_results.json")
+
+    if not os.path.exists(input_path):
+        logger.error(f"Input file not found: {input_path}")
+        return
+
+    logger.info(f"Loading large results file: {input_path}")
+
+    try:
+        with open(input_path, 'r', encoding='utf-8') as f:
+            all_results = json.load(f)
+    except Exception as e:
+        logger.error(f"Error loading JSON file: {str(e)}")
+        return
+
+    total_results = len(all_results)
+    logger.info(f"Loaded {total_results} results. Chunking into groups of {chunk_size}...")
+
+    # Calculate number of chunks needed
+    num_chunks = (total_results + chunk_size - 1) // chunk_size  # Ceiling division
+
+    for i in range(num_chunks):
+        start_idx = i * chunk_size
+        end_idx = min((i + 1) * chunk_size, total_results)
+
+        chunk_data = all_results[start_idx:end_idx]
+
+        output_filename = f"cross_user_matching_results{i+1}.json"
+        output_path = os.path.join(os.path.dirname(__file__), "TestQA", output_filename)
+
+        try:
+            with open(output_path, 'w', encoding='utf-8') as f:
+                json.dump(chunk_data, f, indent=2)
+
+            logger.info(f"Created chunk {i+1}/{num_chunks}: {output_filename} ({len(chunk_data)} items)")
+
+        except Exception as e:
+            logger.error(f"Error saving chunk {i+1}: {str(e)}")
+
+    logger.info(f"Chunking complete. Created {num_chunks} files.")
+
 if __name__ == "__main__":
-    run_cross_user_matching()
+    import sys
+
+    if len(sys.argv) > 1 and sys.argv[1] == "chunk":
+        # Run chunking function
+        chunk_size = int(sys.argv[2]) if len(sys.argv) > 2 else 5000
+        chunk_cross_user_matching_results(chunk_size)
+    else:
+        # Run the original cross-user matching analysis
+        run_cross_user_matching()
