@@ -4,16 +4,18 @@ from pathlib import Path
 
 def categorize_score(score):
     """Categorize score into predefined ranges"""
-    if score > 90:
+    if score >= 90:
         return "above_90"
-    elif 80 <= score <= 90:
+    elif 80 <= score < 90:
         return "80_to_90"
     elif 70 <= score < 80:
         return "70_to_80"
     elif 60 <= score < 70:
         return "60_to_70"
-    elif 40 <= score < 60:
-        return "40_to_60"
+    elif 50 <= score < 60:
+        return "50_to_60"
+    elif 40 <= score < 50:
+        return "40_to_50"
     elif 20 <= score < 40:
         return "20_to_40"
     elif 0 <= score < 20:
@@ -22,14 +24,17 @@ def categorize_score(score):
         return "negative_or_invalid"
 
 def main():
-    # Input files
-    input_files = [
-        "cross_user_matching_results1.json",
-        "cross_user_matching_results2.json"
-    ]
+    # Input directory
+    input_dir = Path("TestQA/User_Matching_Results")
+
+    # Generate file paths from cross_user_matching_results1.json to cross_user_matching_results567.json
+    input_files = []
+    for i in range(1, 568):  # 1 to 567 inclusive
+        file_path = input_dir / f"cross_user_matching_results{i}.json"
+        input_files.append(str(file_path))
 
     # Output directory
-    output_dir = Path("summary_results")
+    output_dir = Path("TestQA/summary_results")
     output_dir.mkdir(exist_ok=True)
 
     # Initialize categories with empty lists
@@ -38,7 +43,8 @@ def main():
         "80_to_90": [],
         "70_to_80": [],
         "60_to_70": [],
-        "40_to_60": [],
+        "50_to_60": [],
+        "40_to_50": [],
         "20_to_40": [],
         "0_to_20": [],
         "negative_or_invalid": []
@@ -75,7 +81,8 @@ def main():
         "80_to_90.json": ["80_to_90"],
         "70_to_80.json": ["70_to_80"],
         "60_to_70.json": ["60_to_70"],
-        "40_to_60.json": ["40_to_60"],
+        "50_to_60.json": ["50_to_60"],
+        "40_to_50.json": ["40_to_50"],
         "20_to_40.json": ["20_to_40"],
         "0_to_20.json": ["0_to_20"],
         "negative_or_invalid.json": ["negative_or_invalid"]
