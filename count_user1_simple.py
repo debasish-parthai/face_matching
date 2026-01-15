@@ -136,8 +136,6 @@ def count_specific_user(target_user):
                     emb_path = os.path.join(user_path, metadata["primary_photo"]["embedding_path"])
                     if os.path.exists(emb_path):
                         has_embeddings = True
-                # else:
-                #     print(f"No primary photo embedding found for {folder}")
 
                 # Check additional photos
                 for photo in metadata.get("additional_photos", []):
@@ -146,10 +144,11 @@ def count_specific_user(target_user):
                         if os.path.exists(emb_path):
                             has_embeddings = True
                             break
-                    # else:
-                    #     print(f"No additional photo embedding found for {folder}")
+
                 if has_embeddings:
                     users_with_embeddings.append(folder)
+                else:
+                    print(f"No primary photo and additional photo embeddings found for {folder}")
 
             except Exception as e:
                 continue
