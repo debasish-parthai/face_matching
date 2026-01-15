@@ -18,6 +18,7 @@ def load_user_data(users_dir: str) -> List[Dict]:
         return []
 
     user_folders = [f for f in os.listdir(users_dir) if os.path.isdir(os.path.join(users_dir, f))]
+    user_folders.sort(key=lambda x: int(x.split('user')[-1]))
     logger.info(f"Found {len(user_folders)} user folders in {users_dir}")
 
     for folder in user_folders:
@@ -187,29 +188,34 @@ def run_cross_user_matching():
             best_pair = None
 
             # Compare all photos of user1 with all photos of user2
+            comparison_count = 0
             for emb1_data in user1["embeddings"]:
                 for emb2_data in user2["embeddings"]:
                     score = calculate_similarity(emb1_data["embedding"], emb2_data["embedding"])
+                    comparison_count += 1
 
-                    if score > best_score:
+                    # Set best_pair to first comparison if not set
+                    if best_pair is None:
+                        best_score = score
+                        best_pair = (emb1_data["file_id"], emb2_data["file_id"])
+                    elif score > best_score:
                         best_score = score
                         best_pair = (emb1_data["file_id"], emb2_data["file_id"])
 
-            # Only record if we found a match
-            if best_pair:
-                result = {
-                    "user1_id": user1["user_id"],
-                    "user1_folder": user1["folder"],
-                    "user2_id": user2["user_id"],
-                    "user2_folder": user2["folder"],
-                    "file1": best_pair[0],
-                    "file2": best_pair[1],
-                    "score": round(best_score, 2)
-                }
+          
+            result = {
+                "user1_id": user1["user_id"],
+                "user1_folder": user1["folder"],
+                "user2_id": user2["user_id"],
+                "user2_folder": user2["folder"],
+                "file1": best_pair[0],
+                "file2": best_pair[1],
+                "score": round(best_score, 2)
+            }
 
-                # Categorize result by score range
-                range_key = get_score_range(best_score)
-                results_by_range[range_key].append(result)
+            # Categorize result by score range
+            range_key = get_score_range(best_score)
+            results_by_range[range_key].append(result)
 
     # Sort each range by score in descending order
     for range_key in results_by_range:
