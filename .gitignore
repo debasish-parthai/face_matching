@@ -4,7 +4,17 @@ venv/
 __pycache__/
 *.pycvenv/
 TestQA/Users/
+TestQA/Users_Final_Old/
 TestQA/Users_Final/
 TestQA/User_Matching_Results/
 TestQA/summary_results/
+TestQA/categorized_similarity_results_Old/
 TestQA/categorized_similarity_results/
+TestQA/individual_comparisons/
+TestQA/user_summaries/
+TestQA/progress_state.json
+TestQA/categorized_similarity_results
+TestQA/master_best_matches.json
+TestQA/master_significant_matches.json
+TestQA/master_best_matches_part*.json
+TestQA/master_significant_matches_part*.json

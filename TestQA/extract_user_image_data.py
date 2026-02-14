@@ -9,8 +9,8 @@ import logging
 import tempfile
 import shutil
 
-QA_DEST_URI = 'mongodb://normaluser:uE8WOY76HWt5ajSeeeYY@3.7.193.35:27018/matchmaking_db_qa'
-QA_DEST_DB_NAME = 'matchmaking_db_qa'
+QA_DEST_URI = 'mongodb://normaluser:uE8WOY76HWt5ajSeeeYY@13.202.186.136:27018/matchmaking_db_prod'
+QA_DEST_DB_NAME = 'matchmaking_db_prod'
 
 # Base URL for images
 BASE_IMAGE_URL = 'https://apps.parthaisolutions.com/ai-matchmaking/api/matrimony/'
@@ -75,7 +75,7 @@ def extract_user_image_data():
     registration_query = {
         "user_id": {"$in": user_ids},
         "photos.primary_photo": {"$exists": True, "$ne": None},
-        "photos.additional_photos": {"$exists": True, "$ne": []},
+        # "photos.additional_photos": {"$exists": True, "$ne": []},
     }
 
     # Project only the photos field
